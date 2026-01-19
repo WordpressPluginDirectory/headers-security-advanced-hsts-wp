@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name: Headers Security Advanced & HSTS WP
- * Plugin URI: https://www.tentacleplugins.com/
+ * Plugin URI: https://openheaders.org
  * Description: Headers Security Advanced & HSTS WP - Simple, Light and Fast. The plugin uses advanced security rules that provide huge levels of protection and it is important that your site uses it. This step is important to submit your website and/or domain to an approved HSTS list. Google officially compiles this list and it is used by Chrome, Firefox, Opera, Safari, IE11 and Edge. You can forward your site to the official HSTS preload directory. Cross Site Request Forgery (CSRF) is a common attack with the installation of Headers Security Advanced & HSTS WP will help you mitigate CSRF on your WordPress site.
- * Version: 5.2.3
+ * Version: 5.2.5
  * Text Domain: headers-security-advanced-hsts-wp
  * Domain Path: /languages
  * Author: 🐙 Andrea Ferro
@@ -23,11 +23,15 @@ if ( ! function_exists( 'add_action' ) ) {
     die( 'Don\'t try to be smart with us, only real ninjas can enter here!' );
 }
 
-const HSTS_PLUGIN_VERSION = '5.2.3';
+const HSTS_PLUGIN_VERSION = '5.2.5';
 const HSTS_STANDARD_VALUE_CSP = 'upgrade-insecure-requests;';
 const HSTS_STANDARD_VALUE_PERMISSIONS_POLICY = 'accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(self), encrypted-media=(), fullscreen=*, geolocation=(self), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=*, picture-in-picture=*, publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=*, usb=(), xr-spatial-tracking=(), gamepad=(), serial=()';
 
-function hsts_plugin_get_headers( array $headers = array() ): array {
+function hsts_plugin_get_headers( $headers = array() ) {
+        if ( ! is_array( $headers ) ) {
+            $headers = array();
+        }
+        
         $headers['Access-Control-Allow-Methods']             = 'GET,POST';
         $headers['Access-Control-Allow-Headers']             = 'Content-Type, Authorization';
         $headers['Content-Security-Policy']                  = hsts_plugin_get_csp_header();
@@ -85,7 +89,7 @@ function hsts_plugin_settings_page(): void {
     } ?>
 <div class="wrap HeaderSecurityAdvancedHSTSWPROSHUEbkgsuccess">
     <?php
-    printf( esc_html__( '%1$sYour website is finally safe! 🚀🚀%2$s Implement enhanced security headers, HSTS preload for optimum website protection.', 'headers-security-advanced-hsts-wp' ), '<strong>', '</strong>' );
+    printf( esc_html__( '%1$sYour website is finally safe! 🚀%2$s Implement enhanced security headers, HSTS preload for optimum website protection.', 'headers-security-advanced-hsts-wp' ), '<strong>', '</strong>' );
     ?>
 </div>
 
@@ -117,7 +121,7 @@ function hsts_plugin_settings_page(): void {
                 </tr>
             </table><br /><?php esc_html_e( 'I create projects available to everyone for free and I like to create simple but functional projects.', 'headers-security-advanced-hsts-wp' ); ?>
         </div>
-        <a href="https://wordpress.org/plugins/headers-security-advanced-hsts-wp/" class="HeaderSecurityAdvancedHSTSWPROSHUEbkg">
+        <a href="https://openheaders.org" class="HeaderSecurityAdvancedHSTSWPROSHUEbkg">
             <div class="HeaderSecurityAdvancedHSTSWPROSHUErw1">
                 <?php
                     printf( esc_html__( '%1$sDo you need help with the Headers Security Advanced & HSTS WP plugin?%2$s Don\'t worry, I\'ve got it covered!', 'headers-security-advanced-hsts-wp' ), '<strong>', '</strong>' );
@@ -297,6 +301,12 @@ function hsts_plugin_settings_page(): void {
                                 );
                                 ?>
                             </span>
+                            <div class="HeaderSecurityAdvancedHSTSWPROSHUEbox333">
+                            <p>
+                                <span class="HeaderSecurityAdvancedHSTSWPROSHUEtxexttextSize">
+                                    Enter one or more directives separated by commas. Use double quotation marks for URLs and leave the parentheses empty to disable a feature. Do not add Permissions-Policy: as it is inserted automatically.</span>
+                            </p>
+                        </div>
                         </p>
                     </th>
                     <td>
@@ -421,14 +431,38 @@ function hsts_plugin_get_hsts_header(): string {
     return implode( '; ', $header_tokens );
 }
 
+// This function sanitizes user-provided CSP to prevent Apache/nginx errors
 function hsts_plugin_get_csp_header(): string {
-    $csp = get_option('hsts_csp');
+    $csp        = get_option('hsts_csp');
     $report_uri = get_option('hsts_csp_report_uri');
 
-    if (!empty($report_uri)) {
-        $report_to = "report-to {$report_uri}";
+    if (!empty($csp)) {
+        $csp = str_replace(
+            array('‘', '’'),
+            "'",
+            $csp
+        );
+
+        $csp = str_replace(
+            array('“', '”'),
+            '"',
+            $csp
+        );
+
+        if (strpos($csp, '"') !== false) {
+            $csp = str_replace('"', "'", $csp);
+        }
+
+        $stripped = trim($csp, " \t\n\r\0\x0B'\";");
+        if ($stripped === '') {
+            $csp = '';
+        }
+    }
+
+    if (!empty($csp) && !empty($report_uri)) {
+        $report_to  = "report-to {$report_uri}";
         $report_uri = "report-uri {$report_uri}";
-        $csp .= " {$report_to}; {$report_uri};";
+        $csp       .= " {$report_to}; {$report_uri};";
     }
 
     return empty($csp) ? HSTS_STANDARD_VALUE_CSP : $csp;
@@ -465,6 +499,8 @@ function hsts_plugin_get_x_frame_options_header(): string {
 }
 
 function hsts_plugin_update_htaccess(): void {
+    hsts_plugin_maybe_migrate_legacy_csp();
+
     $filesystem = hsts_plugin_get_filesystem();
     if ( null === $filesystem ) {
         return;
@@ -490,6 +526,11 @@ function hsts_plugin_update_htaccess(): void {
     );
 
     foreach ( hsts_plugin_get_headers() as $name => $header ) {
+
+        if ( strtolower($name) === 'permissions-policy' ) {
+            $header = str_replace('"', '\"', $header);
+        }
+
         $lines[] = "Header set {$name} \"{$header}\"";
     }
 
@@ -498,6 +539,33 @@ function hsts_plugin_update_htaccess(): void {
     $lines[] = '';
 
     $filesystem->put_contents( $htaccess_file, implode( PHP_EOL, $lines ) );
+}
+
+function hsts_plugin_maybe_migrate_legacy_csp(): void {
+    $csp = get_option('hsts_csp');
+
+    if (empty($csp)) {
+        return;
+    }
+
+    $search  = array('‘', '’', '“', '”');
+    $replace = array("'", "'", '"', '"');
+    $csp_normalized = str_replace($search, $replace, $csp);
+
+    $legacy_csp = "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests";
+
+    $legacy_csp_normalized = str_replace($search, $replace, $legacy_csp);
+
+    $normalize_spaces = static function (string $value): string {
+        $value = trim($value);
+        $value = rtrim($value, ';');
+        $value = preg_replace('/\s+/', ' ', $value);
+        return $value;
+    };
+
+    if ($normalize_spaces($csp_normalized) === $normalize_spaces($legacy_csp_normalized)) {
+        update_option('hsts_csp', HSTS_STANDARD_VALUE_CSP);
+    }
 }
 
 function hsts_plugin_activate(): void {
@@ -520,6 +588,7 @@ function hsts_plugin_activate(): void {
         add_option( 'hsts_x_frame_options', 'SAMEORIGIN' );
     }
 
+    hsts_plugin_maybe_migrate_legacy_csp(); 
     hsts_plugin_update_htaccess();
 }
 register_activation_hook( __FILE__, 'hsts_plugin_activate' );
@@ -558,7 +627,7 @@ function hsts_plugin_flush_rewrite_rules(): void {
 }
 
 function hsts_plugin_delete_old_options(): void {
-    // Last referenced by plugin version 5.2.3.
+    // Last referenced by plugin version 5.2.5.
     delete_option( 'HEADERS_SECURITY_ADVANCED_HSTS_WP_PLUGIN_VERSION' );
 }
 
@@ -626,7 +695,12 @@ function hsts_plugin_get_dashboard_widget_contents(): void {
     <?php
 }
 
-function hsts_plugin_add_plugin_action_links( array $links, string $file ): array {
+function hsts_plugin_add_plugin_action_links( $links, $file ) {
+    // FIX: Protezione contro input non-array da altri plugin buggy
+    if ( ! is_array( $links ) ) {
+        $links = array();
+    }
+
     static $this_plugin;
 
     if ( ! $this_plugin ) {
@@ -634,30 +708,44 @@ function hsts_plugin_add_plugin_action_links( array $links, string $file ): arra
     }
 
     if ( $file === $this_plugin ) {
-        $settings_link = '<a href="https://www.paypal.com/donate/?hosted_button_id=M72GQUM8CWTZS">Donate a coffee</a>';
-        array_unshift( $links, $settings_link );
+        $settings_url = admin_url( 'options-general.php?page=headers-security-advanced-hsts-wp-plugin' );
+
+        $donate_hstswp_link  = '<a href="https://www.paypal.com/donate/?hosted_button_id=M72GQUM8CWTZS" target="_blank"><b>Donate a coffee</b></a>';
+        $setting_hstswp_link = '<a href="' . esc_url( $settings_url ) . '">Settings</a>';
+        $support_hstswp_link = '<a href="https://openheaders.org" target="_blank">Support</a>';
+
+        array_unshift( $links, $support_hstswp_link );
+        array_unshift( $links, $setting_hstswp_link );
+        array_unshift( $links, $donate_hstswp_link );
     }
+    
     return $links;
 }
 add_filter( 'plugin_action_links', 'hsts_plugin_add_plugin_action_links', 10, 2 );
 
+
+
 function hsts_plugin_deactivate(): void {
     hsts_plugin_cleanup_htaccess();
-
     hsts_plugin_delete_old_options();
-
-    delete_option( 'hsts_max_age' );
-    delete_option( 'hsts_include_subdomains' );
-    delete_option( 'hsts_preload' );
-    delete_option( 'hsts_csp' );
-    delete_option( 'hsts_pp' );
-    delete_option( 'hsts_x_frame_options_url_field' );
-    delete_option( 'hsts_x_frame_options' );
-
 }
 register_deactivation_hook( __FILE__, 'hsts_plugin_deactivate' );
 // I flush only during hsts wp deactivation
 register_deactivation_hook(__FILE__, 'hsts_plugin_flush_rewrite_rules');
+
+add_action( 'upgrader_process_complete', function( $upgrader, $hook_extra ) {
+    if ( empty( $hook_extra['plugins'] ) || ! is_array( $hook_extra['plugins'] ) ) {
+        return;
+    }
+
+    foreach ( $hook_extra['plugins'] as $plugin ) {
+        if ( plugin_basename( __FILE__ ) === $plugin ) {
+            hsts_plugin_maybe_migrate_legacy_csp();
+            hsts_plugin_update_htaccess();
+            break;
+        }
+    }
+}, 10, 2 );
 
 function hsts_plugin_get_filesystem(): ?WP_Filesystem_Base {
     if ( true !== WP_Filesystem() ) {
