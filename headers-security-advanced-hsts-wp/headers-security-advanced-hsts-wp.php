@@ -3,7 +3,7 @@
  * Plugin Name: Headers Security Advanced & HSTS WP
  * Plugin URI: https://openheaders.org
  * Description: Headers Security Advanced & HSTS WP - Simple, Light and Fast. The plugin uses advanced security rules that provide huge levels of protection and it is important that your site uses it. This step is important to submit your website and/or domain to an approved HSTS list. Google officially compiles this list and it is used by Chrome, Firefox, Opera, Safari, IE11 and Edge. You can forward your site to the official HSTS preload directory. Cross Site Request Forgery (CSRF) is a common attack with the installation of Headers Security Advanced & HSTS WP will help you mitigate CSRF on your WordPress site.
- * Version: 5.2.5
+ * Version: 5.3.2
  * Text Domain: headers-security-advanced-hsts-wp
  * Domain Path: /languages
  * Author: 🐙 Andrea Ferro
@@ -23,7 +23,7 @@ if ( ! function_exists( 'add_action' ) ) {
     die( 'Don\'t try to be smart with us, only real ninjas can enter here!' );
 }
 
-const HSTS_PLUGIN_VERSION = '5.2.5';
+const HSTS_PLUGIN_VERSION = '5.3.2';
 const HSTS_STANDARD_VALUE_CSP = 'upgrade-insecure-requests;';
 const HSTS_STANDARD_VALUE_PERMISSIONS_POLICY = 'accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(self), encrypted-media=(), fullscreen=*, geolocation=(self), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=*, picture-in-picture=*, publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=*, usb=(), xr-spatial-tracking=(), gamepad=(), serial=()';
 
@@ -83,6 +83,10 @@ function hsts_plugin_add_admin_style(): void {
 }
 add_action( 'admin_init', 'hsts_plugin_add_admin_style' );
 
+add_action( 'init', function() {
+    load_plugin_textdomain( 'headers-security-advanced-hsts-wp', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+} );
+
 function hsts_plugin_settings_page(): void {
     if ( ! current_user_can( 'manage_options' ) ) {
         wp_die( esc_html__( 'You do not have sufficient permissions to access this page.', 'headers-security-advanced-hsts-wp' ) );
@@ -106,12 +110,41 @@ function hsts_plugin_settings_page(): void {
     <div class="HeaderSecurityAdvancedHSTSWPROSHUEgridgap1546">
         <div class="HeaderSecurityAdvancedHSTSWPROSHUEtxgrh1">
         <?php
-            printf( esc_html__( 'The %1$sHeaders Security Advanced & HSTS WP%2$s security plugin for WordPress is an essential and completely free plugin to protect your WordPress site. %1$sHeaders Security Advanced & HSTS WP%2$s adds security headers quickly to your site to protect it from threats such as phishing attacks, data theft and more. %1$sHeaders Security Advanced & HSTS WP%2$s is easy to use and allows you to customize the HSTS Preload header to suit your needs. The plugin is compatible with all major browsers and operating systems and can be installed on any WordPress site.', 'headers-security-advanced-hsts-wp' ), '<b>', '</b>' );
+            printf( esc_html__( '%1$sHeaders Security Advanced & HSTS WP%2$s adds 10+ security headers to protect your WordPress site from phishing, data theft, clickjacking, XSS, and protocol downgrade attacks. Easy to configure, compatible with all servers and caching plugins.', 'headers-security-advanced-hsts-wp' ), '<b>', '</b>' );
         ?>
+            <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px; margin-top:20px;">
+                <div style="background:linear-gradient(135deg,#0f135e,#5b06b0); padding:20px; border-radius:14px; color:#fff; position:relative; overflow:hidden;">
+                    <div style="position:absolute; top:-15px; right:-15px; width:60px; height:60px; background:rgba(255,255,255,.08); border-radius:50%;"></div>
+                    <div style="font-size:11px; color:rgba(255,255,255,.7); margin-bottom:6px; letter-spacing:.5px; text-transform:uppercase;"><?php esc_html_e( 'Security Headers', 'headers-security-advanced-hsts-wp' ); ?></div>
+                    <div style="font-size:32px; font-weight:800; line-height:1; position:relative; z-index:1;">10+</div>
+                </div>
+                <div style="background:#fff; padding:20px; border-radius:14px; border:1px solid #e8e0f3; position:relative; overflow:hidden;">
+                    <div style="position:absolute; top:-15px; right:-15px; width:60px; height:60px; background:#f1e3ff; border-radius:50%; opacity:.5;"></div>
+                    <div style="font-size:11px; color:#575ba3; margin-bottom:6px; letter-spacing:.5px; text-transform:uppercase;"><?php esc_html_e( 'Active Sites', 'headers-security-advanced-hsts-wp' ); ?></div>
+                    <div style="font-size:32px; font-weight:800; color:#0f135e; line-height:1; position:relative; z-index:1;">100K+</div>
+                </div>
+                <div style="background:#fff; padding:20px; border-radius:14px; border:1px solid #c8e6c9; position:relative; overflow:hidden;">
+                    <div style="position:absolute; top:-15px; right:-15px; width:60px; height:60px; background:#d4edda; border-radius:50%; opacity:.5;"></div>
+                    <div style="font-size:11px; color:#575ba3; margin-bottom:6px; letter-spacing:.5px; text-transform:uppercase;"><?php esc_html_e( 'Top Grade', 'headers-security-advanced-hsts-wp' ); ?></div>
+                    <div style="font-size:32px; font-weight:800; color:#28a745; line-height:1; position:relative; z-index:1;">A+</div>
+                </div>
+            </div>
+            <div style="display:flex; flex-wrap:wrap; gap:8px; margin-top:16px;">
+                <span style="display:inline-block; padding:6px 14px; background:#f1e3ff; color:#5b06b0; border-radius:100px; font-size:12px; font-weight:500;">HSTS Preload</span>
+                <span style="display:inline-block; padding:6px 14px; background:#f1e3ff; color:#5b06b0; border-radius:100px; font-size:12px; font-weight:500;">CSP</span>
+                <span style="display:inline-block; padding:6px 14px; background:#f1e3ff; color:#5b06b0; border-radius:100px; font-size:12px; font-weight:500;">Permissions Policy</span>
+                <span style="display:inline-block; padding:6px 14px; background:#f1e3ff; color:#5b06b0; border-radius:100px; font-size:12px; font-weight:500;">X-Frame-Options</span>
+                <span style="display:inline-block; padding:6px 14px; background:#f1e3ff; color:#5b06b0; border-radius:100px; font-size:12px; font-weight:500;">Cross-Origin</span>
+                <span style="display:inline-block; padding:6px 14px; background:#f1e3ff; color:#5b06b0; border-radius:100px; font-size:12px; font-weight:500;">Referrer-Policy</span>
+            </div>
         </div>
         <div class="HeaderSecurityAdvancedHSTSWPROSHUEtxgrh1">
             <?php
-                printf( esc_html__( 'Please consider buying me a coffee to support my work on this %1$sHeaders Security Advanced & HSTS WP%2$s plugin.', 'headers-security-advanced-hsts-wp' ), '<b>', '</b>' );
+                esc_html_e( 'I create projects available to everyone for free and I like to create simple but functional projects. Every feature this plugin offers today will remain completely free, forever. That is a promise I intend to keep.', 'headers-security-advanced-hsts-wp' );
+            ?>
+            <br /><br />
+            <?php
+                printf( esc_html__( 'Maintaining a plugin trusted by 100,000+ sites takes constant work: security patches, WordPress updates, new browser standards, support. To fund this effort, I built %1$sShield%2$s — a set of brand-new advanced tools for professionals who need more. Nothing existing moves behind a paywall. Your support through Shield directly funds free updates for everyone.', 'headers-security-advanced-hsts-wp' ), '<b>', '</b>' );
             ?>
             <br /><br />
             <table border="0px">
@@ -119,7 +152,7 @@ function hsts_plugin_settings_page(): void {
                     <td><a class="HeaderSecurityAdvancedHSTSWPROSHUEbksnack" href="https://www.buymeacoffee.com/tentacleplugins" target="_blank"><?php esc_attr_e( 'Buy me a coffee', 'headers-security-advanced-hsts-wp' ); ?></a></td>
                     <td><a class="HeaderSecurityAdvancedHSTSWPROSHUEbksnack" href="https://www.paypal.com/donate/?hosted_button_id=M72GQUM8CWTZS" target="_blank"><?php esc_attr_e( 'Donate via PayPal', 'headers-security-advanced-hsts-wp' ); ?></a></td>
                 </tr>
-            </table><br /><?php esc_html_e( 'I create projects available to everyone for free and I like to create simple but functional projects.', 'headers-security-advanced-hsts-wp' ); ?>
+            </table>
         </div>
         <a href="https://openheaders.org" class="HeaderSecurityAdvancedHSTSWPROSHUEbkg">
             <div class="HeaderSecurityAdvancedHSTSWPROSHUErw1">
@@ -137,6 +170,14 @@ function hsts_plugin_settings_page(): void {
         </a>
     </div>
 
+    <?php
+    /**
+     * Hook: hsts_pro_before_settings
+     */
+    do_action( 'hsts_pro_before_settings' );
+    ?>
+
+    <div id="hsts-panel-settings" class="hsts-pro-panel">
     <div class="HeaderSecurityAdvancedHSTSWPROSHUEgrid_settings HeaderSecurityAdvancedHSTSWPROSHUEselspace1128t">
         <h4 class="HeaderSecurityAdvancedHSTSWPROSHUEtboxy1440"><?php esc_html_e( 'Quick selection:', 'headers-security-advanced-hsts-wp' ); ?></h4>
         <div class="HeaderSecurityAdvancedHSTSWPROSHUEselspeed1127 HeaderSecurityAdvancedHSTSWPROSHUEselspace1128">
@@ -394,6 +435,13 @@ function hsts_plugin_settings_page(): void {
             ?>
         </form>
     </div>
+    </div><!-- /hsts-panel-settings -->
+        <?php
+        /**
+         * Hook: hsts_settings_after_form
+         */
+        do_action( 'hsts_settings_after_form' );
+        ?>
 </div>
 <?php
 }
@@ -431,7 +479,7 @@ function hsts_plugin_get_hsts_header(): string {
     return implode( '; ', $header_tokens );
 }
 
-// This function sanitizes user-provided CSP to prevent Apache/nginx errors
+// 
 function hsts_plugin_get_csp_header(): string {
     $csp        = get_option('hsts_csp');
     $report_uri = get_option('hsts_csp_report_uri');
@@ -592,7 +640,7 @@ function hsts_plugin_activate(): void {
     hsts_plugin_update_htaccess();
 }
 register_activation_hook( __FILE__, 'hsts_plugin_activate' );
-// I only execute flush during activation hsts wp
+
 register_activation_hook(__FILE__, 'hsts_plugin_flush_rewrite_rules');
 
 function hsts_plugin_cleanup_htaccess(): void {
@@ -611,7 +659,7 @@ function hsts_plugin_cleanup_htaccess(): void {
         return;
     }
 
-    // This regex should match our whole block, both current and older versions.
+    
     $regex             = '/\n*# (BEGIN )?(WordPress )?Headers Security Advanced & HSTS WP (Version |- )?\d+\.\d+\.\d+[^#]+\n# END (WordPress )?Headers Security Advanced & HSTS WP[^\n]*\n*/ism';
     $htaccess_contents = preg_replace( $regex, "\n\n", $htaccess_contents );
     $filesystem->put_contents( $htaccess_file, $htaccess_contents );
@@ -627,7 +675,7 @@ function hsts_plugin_flush_rewrite_rules(): void {
 }
 
 function hsts_plugin_delete_old_options(): void {
-    // Last referenced by plugin version 5.2.5.
+    
     delete_option( 'HEADERS_SECURITY_ADVANCED_HSTS_WP_PLUGIN_VERSION' );
 }
 
@@ -696,7 +744,7 @@ function hsts_plugin_get_dashboard_widget_contents(): void {
 }
 
 function hsts_plugin_add_plugin_action_links( $links, $file ) {
-    // FIX: Protezione contro input non-array da altri plugin buggy
+    
     if ( ! is_array( $links ) ) {
         $links = array();
     }
@@ -730,7 +778,7 @@ function hsts_plugin_deactivate(): void {
     hsts_plugin_delete_old_options();
 }
 register_deactivation_hook( __FILE__, 'hsts_plugin_deactivate' );
-// I flush only during hsts wp deactivation
+
 register_deactivation_hook(__FILE__, 'hsts_plugin_flush_rewrite_rules');
 
 add_action( 'upgrader_process_complete', function( $upgrader, $hook_extra ) {
@@ -765,4 +813,12 @@ function hsts_plugin_get_writable_htaccess_path( WP_Filesystem_Base $filesystem 
     }
 
     return $htaccess_file;
+}
+
+/**
+ * 
+ */
+$hsts_pro_loader = plugin_dir_path( __FILE__ ) . 'pro/loader.php';
+if ( file_exists( $hsts_pro_loader ) ) {
+    require_once $hsts_pro_loader;
 }

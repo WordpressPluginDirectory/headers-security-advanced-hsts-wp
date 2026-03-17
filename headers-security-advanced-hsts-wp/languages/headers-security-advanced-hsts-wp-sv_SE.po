@@ -1,11 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Headers Security Advanced & HSTS WP\n"
-"POT-Creation-Date: 2026-03-16 08:27+0100\n"
-"PO-Revision-Date: 2026-03-16 12:16+0100\n"
+"POT-Creation-Date: 2026-03-16 08:31+0100\n"
+"PO-Revision-Date: 2026-03-16 12:14+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: de_DE\n"
+"Language: sv_SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,12 +24,11 @@ msgstr ""
 #: headers-security-advanced-hsts-wp.php:72
 #: headers-security-advanced-hsts-wp.php:697
 msgid "Headers Security Advanced & HSTS WP"
-msgstr "Header, Sicherheit, Erweitert & HSTS, WP"
+msgstr "Rubriker: Säkerhet, Avancerat & HSTS, WordPress"
 
 #: headers-security-advanced-hsts-wp.php:92
 msgid "You do not have sufficient permissions to access this page."
-msgstr ""
-"Du hast nicht die erforderlichen Rechte, um auf diese Seite zuzugreifen."
+msgstr "Du har inte tillräcklig behörighet för att komma åt denna sida."
 
 #: headers-security-advanced-hsts-wp.php:96
 #, php-format
@@ -37,12 +36,12 @@ msgid ""
 "%1$sYour website is finally safe! 🚀%2$s Implement enhanced security "
 "headers, HSTS preload for optimum website protection."
 msgstr ""
-"%1$sIhre Website ist endlich sicher! 🚀%2$s Implementieren Sie erweiterte "
-"Sicherheits-Header und HSTS-Preload für optimalen Website-Schutz."
+"%1$sDin webbplats är äntligen säker! 🚀%2$s Implementera förbättrade "
+"säkerhetsrubriker och HSTS-förladdning för optimalt skydd av webbplatsen."
 
 #: headers-security-advanced-hsts-wp.php:107
 msgid "The security of your website is our priority! 🛸"
-msgstr "Die Sicherheit Ihrer Website hat für uns oberste Priorität! 🛸"
+msgstr "Säkerheten på din webbplats är vår högsta prioritet! 🛸"
 
 #: headers-security-advanced-hsts-wp.php:113
 #, php-format
@@ -52,23 +51,23 @@ msgid ""
 "and protocol downgrade attacks. Easy to configure, compatible with all "
 "servers and caching plugins."
 msgstr ""
-"%1$sDas Plugin „Headers Security Advanced & HSTS“%2$s fügt mehr als 10 "
-"Sicherheits-Header hinzu, um Ihre WordPress-Seite vor Phishing, "
-"Datendiebstahl, Clickjacking, XSS und Protokoll-Downgrade-Angriffen zu "
-"schützen. Einfach zu konfigurieren, kompatibel mit allen Servern und Caching-"
-"Plugins."
+"%1$sHeaders Security Advanced & HSTS WP%2$s lägger till över 10 "
+"säkerhetshuvuden för att skydda din WordPress-webbplats mot nätfiske, "
+"datastöld, clickjacking, XSS och attacker som syftar till att tvinga fram en "
+"lägre protokollversion. Enkelt att konfigurera, kompatibelt med alla servrar "
+"och caching-plugins."
 
 #: headers-security-advanced-hsts-wp.php:118
 msgid "Security Headers"
-msgstr "Sicherheit Kopfzeilen"
+msgstr "Säkerhetsrubriker"
 
 #: headers-security-advanced-hsts-wp.php:123
 msgid "Active Sites"
-msgstr "Aktive Standorte"
+msgstr "Aktiva webbplatser"
 
 #: headers-security-advanced-hsts-wp.php:128
 msgid "Top Grade"
-msgstr "Erstklassig"
+msgstr "Högsta kvalitet"
 
 #: headers-security-advanced-hsts-wp.php:143
 msgid ""
@@ -76,10 +75,10 @@ msgid ""
 "but functional projects. Every feature this plugin offers today will remain "
 "completely free, forever. That is a promise I intend to keep."
 msgstr ""
-"Ich entwickle Projekte, die für alle kostenlos zugänglich sind, und ich "
-"entwickle gerne einfache, aber funktionale Projekte. Alle Funktionen, die "
-"dieses Plugin heute bietet, werden für immer völlig kostenlos bleiben. Das "
-"ist ein Versprechen, das ich einhalten werde."
+"Jag skapar projekt som är tillgängliga för alla helt gratis, och jag gillar "
+"att skapa enkla men funktionella projekt. Alla funktioner som detta tillägg "
+"erbjuder idag kommer att förbli helt gratis, för alltid. Det är ett löfte "
+"som jag tänker hålla."
 
 #: headers-security-advanced-hsts-wp.php:147
 #, php-format
@@ -90,23 +89,23 @@ msgid ""
 "professionals who need more. Nothing existing moves behind a paywall. Your "
 "support through Shield directly funds free updates for everyone."
 msgstr ""
-"Die Pflege eines Plugins, dem über 100.000 Websites vertrauen, erfordert "
-"ständige Arbeit: Sicherheitspatches, WordPress-Updates, neue "
-"Browserstandards, Support. Um diesen Aufwand zu finanzieren, habe ich "
-"%1$sShield%2$s entwickelt – eine Reihe brandneuer, fortschrittlicher Tools "
-"für Profis, die mehr benötigen. Nichts davon ist hinter einer Paywall "
-"versteckt. Ihre Unterstützung durch Shield finanziert direkt kostenlose "
-"Updates für alle."
+"Att underhålla ett plugin som används av över 100 000 webbplatser kräver "
+"kontinuerligt arbete: säkerhetsuppdateringar, WordPress-uppdateringar, nya "
+"webbläsarstandarder och support. För att finansiera detta arbete har jag "
+"utvecklat %1$sShield%2$s – en uppsättning helt nya avancerade verktyg för "
+"proffs som behöver mer. Inget av det befintliga innehållet ligger bakom en "
+"betalvägg. Ditt stöd via Shield finansierar direkt gratis uppdateringar för "
+"alla."
 
 #: headers-security-advanced-hsts-wp.php:152
 #: headers-security-advanced-hsts-wp.php:723
 msgid "Buy me a coffee"
-msgstr "Lade mich auf einen Kaffee ein"
+msgstr "Bjud mig på en kaffe"
 
 #: headers-security-advanced-hsts-wp.php:153
 #: headers-security-advanced-hsts-wp.php:726
 msgid "Donate via PayPal"
-msgstr "Spende über PayPal"
+msgstr "Ge ett bidrag via PayPal"
 
 #: headers-security-advanced-hsts-wp.php:160
 #, php-format
@@ -114,8 +113,8 @@ msgid ""
 "%1$sDo you need help with the Headers Security Advanced & HSTS WP plugin?"
 "%2$s Don't worry, I've got it covered!"
 msgstr ""
-"%1$sBrauchst du Hilfe mit dem „Headers Security Advanced & HSTS WP“-Plugin?"
-"%2$s Keine Sorge, ich kümmere mich darum!"
+"%1$sBehöver du hjälp med WP-pluginet Headers Security Advanced & HSTS?%2$s "
+"Oroa dig inte, jag fixar det!"
 
 #: headers-security-advanced-hsts-wp.php:167
 #, php-format
@@ -123,29 +122,28 @@ msgid ""
 "%1$sHelp me decide what the next features of this plugin will be!%2$s Take "
 "part in a nerdy survey!"
 msgstr ""
-"%1$sHilf mir bei der Entscheidung, welche Funktionen dieses Plugins als "
-"Nächstes hinzukommen sollen!%2$s Nimm an einer Umfrage für "
-"Technikbegeisterte teil!"
+"%1$sHjälp mig att bestämma vilka funktioner som ska läggas till i det här "
+"tillägget!%2$s Delta i en nördig enkät!"
 
 #: headers-security-advanced-hsts-wp.php:182
 msgid "Quick selection:"
-msgstr "Schnellauswahl:"
+msgstr "Snabbt val:"
 
 #: headers-security-advanced-hsts-wp.php:184
 msgid "Strict Transport Security (HSTS)"
-msgstr "Strenge Transportsicherheit (HSTS)"
+msgstr "Hård transportsäkerhet (HSTS)"
 
 #: headers-security-advanced-hsts-wp.php:185
 msgid "Content Security Policy (CSP)"
-msgstr "Content Security Policy (CSP)"
+msgstr "Innehållssäkerhetspolicy (CSP)"
 
 #: headers-security-advanced-hsts-wp.php:186
 msgid "Permissions Policy"
-msgstr "Richtlinie zu Zugriffsberechtigungen"
+msgstr "Policy för behörigheter"
 
 #: headers-security-advanced-hsts-wp.php:195
 msgid "Max-Age: "
-msgstr "Maximales Alter: "
+msgstr "Maxålder: "
 
 #: headers-security-advanced-hsts-wp.php:202
 msgid ""
@@ -156,12 +154,12 @@ msgid ""
 "protect the website and its visitors from man-in-the-middle (MITM) attacks "
 "and other security threats."
 msgstr ""
-"Der Parameter „Max-Age“ legt fest, wie lange (in Sekunden) der Browser die "
-"HSTS-Informationen speichern soll. Während dieses Zeitraums nutzt der "
-"Browser für die Kommunikation mit der Website stets HTTPS, selbst wenn der "
-"Besucher „http“ oder einen HTTP-Link in die Adressleiste eingegeben hat. "
-"Dies trägt dazu bei, die Website und ihre Besucher vor Man-in-the-Middle-"
-"Angriffen (MITM) und anderen Sicherheitsbedrohungen zu schützen."
+"Parametern Max-Age anger hur länge (i sekunder) webbläsaren ska spara HSTS-"
+"informationen. Under denna tidsperiod kommer webbläsaren alltid att använda "
+"HTTPS för att kommunicera med webbplatsen, även om besökaren har skrivit in "
+"”http” eller en HTTP-länk i adressfältet. Detta bidrar till att skydda "
+"webbplatsen och dess besökare mot man-in-the-middle-attacker (MITM) och "
+"andra säkerhetshot."
 
 #: headers-security-advanced-hsts-wp.php:213
 msgid ""
@@ -173,18 +171,18 @@ msgid ""
 "SSL configuration in the future. Therefore, it is important to carefully "
 "consider your usage and security needs before setting the value."
 msgstr ""
-"Es empfiehlt sich, den Wert für „max-age“ auf einen hohen Wert festzulegen, "
-"beispielsweise ein ganzes Jahr (31536000 Sekunden). Dadurch wird "
-"sichergestellt, dass Browser Sicherheitsinformationen über einen langen "
-"Zeitraum speichern, was zum Schutz der Nutzer vor Man-in-the-Middle-"
-"Angriffen beiträgt. Beachten Sie jedoch, dass ein zu hoher Wert zu Problemen "
-"führen kann, falls Sie die SSL-Konfiguration Ihrer Website in Zukunft ändern "
-"müssen. Daher ist es wichtig, Ihre Nutzungs- und Sicherheitsanforderungen "
-"sorgfältig abzuwägen, bevor Sie den Wert festlegen."
+"Det rekommenderas att ställa in ”max-age” på ett högt värde, till exempel "
+"ett helt år (31 536 000 sekunder). Detta säkerställer att webbläsarna "
+"fortsätter att lagra säkerhetsinformation under en lång tid, vilket bidrar "
+"till att skydda användarna mot man-in-the-middle-attacker. Det är dock "
+"viktigt att tänka på att ett för högt värde kan orsaka problem om du i "
+"framtiden behöver ändra webbplatsens SSL-konfiguration. Därför är det "
+"viktigt att noga överväga din användning och dina säkerhetsbehov innan du "
+"ställer in värdet."
 
 #: headers-security-advanced-hsts-wp.php:223
 msgid "Include Subdomains: "
-msgstr "Subdomains einbeziehen: "
+msgstr "Inkludera underdomäner: "
 
 #: headers-security-advanced-hsts-wp.php:231
 msgid ""
@@ -194,11 +192,11 @@ msgid ""
 "redirected to the HTTPS protocol, providing enhanced security for the "
 "website and the users who visit it."
 msgstr ""
-"Das Flag „includeSubDomains“ legt fest, dass die Wirkung des Headers auch "
-"auf Subdomains der Domain angewendet werden soll. Wenn diese Anweisung "
-"vorhanden ist, werden alle Anfragen an Subdomains Ihrer Domain automatisch "
-"auf das HTTPS-Protokoll umgeleitet, was für die Website und die Nutzer, die "
-"sie besuchen, mehr Sicherheit bietet."
+"Flaggan ”includeSubDomains” anger att inställningen i rubriken även ska "
+"gälla för domänens underdomäner. När detta direktiv är aktiverat omdirigeras "
+"alla förfrågningar till alla underdomäner i din domän automatiskt till HTTPS-"
+"protokollet, vilket ger ökad säkerhet för webbplatsen och de användare som "
+"besöker den."
 
 #: headers-security-advanced-hsts-wp.php:242
 msgid ""
@@ -209,17 +207,16 @@ msgid ""
 "available via HTTPS and that there are no compatibility issues with any "
 "external services used by your site."
 msgstr ""
-"Wir empfehlen, die Option „includeSubDomains“ im HSTS-Header zu aktivieren, "
-"um sicherzustellen, dass alle Unterbereiche Ihrer Website (Subdomains) "
-"ausschließlich über HTTPS geladen werden. Bevor Sie diese Option aktivieren, "
-"sollten Sie jedoch sicherstellen, dass alle Subdomains, Ressourcen und "
-"Webdienste, die unter Ihrer Domain betrieben werden, über HTTPS verfügbar "
-"sind und dass keine Kompatibilitätsprobleme mit externen Diensten auftreten, "
-"die von Ihrer Website genutzt werden."
+"Vi rekommenderar att du aktiverar alternativet ”includeSubDomains” i HSTS-"
+"rubriken för att säkerställa att alla delar av din webbplats (underdomäner) "
+"endast laddas via HTTPS. Innan du aktiverar denna inställning är det dock "
+"viktigt att kontrollera att alla underdomäner, resurser och webbtjänster som "
+"finns under din domän är tillgängliga via HTTPS och att det inte förekommer "
+"några kompatibilitetsproblem med externa tjänster som din webbplats använder."
 
 #: headers-security-advanced-hsts-wp.php:253
 msgid "Preload: "
-msgstr "Voreinstellung: "
+msgstr "Förladdning: "
 
 #: headers-security-advanced-hsts-wp.php:262
 #, php-format
@@ -228,10 +225,10 @@ msgid ""
 "preload list%2$s, which instructs browsers to always use HTTPS connection "
 "for the site and its subdomains, without ever making insecure HTTP requests."
 msgstr ""
-"Das „preload“-Flag ermöglicht es, die Website in die %1$sHSTS-Preload-"
-"Liste%2$s aufzunehmen, wodurch Browser angewiesen werden, für die Website "
-"und ihre Subdomains stets eine HTTPS-Verbindung zu verwenden, ohne jemals "
-"unsichere HTTP-Anfragen zu stellen."
+"Flaggan ”preload” gör det möjligt att lägga till webbplatsen i %1$sHSTS-"
+"preload-listan%2$s, vilket innebär att webbläsarna alltid använder HTTPS-"
+"anslutning för webbplatsen och dess underdomäner, utan att någonsin skicka "
+"osäkra HTTP-förfrågningar."
 
 #: headers-security-advanced-hsts-wp.php:277
 #, php-format
@@ -246,46 +243,43 @@ msgid ""
 "includeSubDomains is also enabled) are indeed accessible and functional via "
 "HTTPS. %1$sLearn more%2$s."
 msgstr ""
-"Die Aktivierung des Preload-Flags trägt zusätzlich dazu bei, potenzielle Man-"
-"in-the-Middle-Angriffe zu verhindern, und verbessert somit die "
-"Verbindungssicherheit im Hinblick auf HSTS. Bitte beachten Sie, dass Ihre "
-"Website auch bei aktiviertem Flag manuell in die Liste aufgenommen werden "
-"muss. Bitte beachten Sie außerdem, dass die Aufnahme in die Preload-Liste "
-"dauerhafte Auswirkungen hat und nicht einfach rückgängig gemacht werden "
-"kann. Sie sollten dieses Flag daher erst aktivieren und Ihre Website erst "
-"einreichen, nachdem Sie sich vergewissert haben, dass alle Ressourcen und "
-"Dienste innerhalb Ihrer Domain (und deren Subdomains, falls "
-"„includeSubDomains“ ebenfalls aktiviert ist) tatsächlich über HTTPS "
-"erreichbar und funktionsfähig sind. %1$sWeitere Informationen%2$s."
+"Att aktivera förladdning bidrar ytterligare till att förhindra eventuella "
+"man-in-the-middle-attacker, vilket förbättrar anslutningssäkerheten vad "
+"gäller HSTS. Observera att även om denna flagga är aktiverad måste din "
+"webbplats fortfarande läggas till i listan manuellt. Observera också att "
+"inkludering i förladdningslistan har permanenta konsekvenser och inte är "
+"lätt att ångra, så du bör endast aktivera denna flagga och skicka in din "
+"webbplats efter att ha säkerställt att alla resurser och tjänster inom din "
+"domän (och dess underdomäner, om includeSubDomains också är aktiverat) "
+"verkligen är tillgängliga och fungerar via HTTPS. %1$sLäs mer%2$s."
 
 #: headers-security-advanced-hsts-wp.php:292
 msgid "CSP Header Contents"
-msgstr "Inhalt des CSP-Headers"
+msgstr "Innehåll i CSP-rubriken"
 
 #: headers-security-advanced-hsts-wp.php:299
 msgid ""
 "HTTP Content-Security-Policy header controls website resources, reducing XSS "
 "risk by specifying allowed server origins and script endpoints."
 msgstr ""
-"Der HTTP-Header „Content-Security-Policy“ regelt den Zugriff auf Website-"
-"Ressourcen und verringert das XSS-Risiko, indem er zulässige Server-"
-"Ursprünge und Skript-Endpunkte festlegt."
+"HTTP-rubriken Content-Security-Policy styr webbplatsens resurser och minskar "
+"risken för XSS genom att ange tillåtna serverkällor och skriptändpunkter."
 
 #: headers-security-advanced-hsts-wp.php:316
 msgid "CSP Report URI"
-msgstr "CSP-Bericht-URI"
+msgstr "CSP-rapportens URI"
 
 #: headers-security-advanced-hsts-wp.php:320
 msgid ""
 "Enter your custom URL (Sentry, URIports, Datadog, and Report URI) for CSP "
 "violation reports."
 msgstr ""
-"Geben Sie Ihre benutzerdefinierte URL (Sentry, URIports, Datadog und Report-"
-"URI) für Berichte zu CSP-Verstößen ein."
+"Ange din anpassade URL (Sentry, URIports, Datadog och Report URI) för "
+"rapporter om CSP-överträdelser."
 
 #: headers-security-advanced-hsts-wp.php:332
 msgid "Permissions Policy Contents"
-msgstr "Inhalt der Richtlinien zu Berechtigungen"
+msgstr "Innehåll i behörighetspolicyn"
 
 #: headers-security-advanced-hsts-wp.php:339
 msgid ""
@@ -293,13 +287,13 @@ msgid ""
 "the use of browser features in a document or within any <iframe> elements in "
 "the document."
 msgstr ""
-"Der HTTP-Header „Permissions-Policy“ bietet einen Mechanismus, um die "
-"Nutzung von Browserfunktionen in einem Dokument oder innerhalb von "
-"„ <iframe> “-Elementen in diesem Dokument zuzulassen oder zu verweigern."
+"HTTP-huvudet Permissions-Policy erbjuder en mekanism för att tillåta eller "
+"neka användning av webbläsarfunktioner i ett dokument eller inom eventuella "
+"<iframe> -element i dokumentet."
 
 #: headers-security-advanced-hsts-wp.php:361
 msgid "X-Frame-Options"
-msgstr "X-Frame Optionen"
+msgstr "X-Frame-Options"
 
 #: headers-security-advanced-hsts-wp.php:368
 msgid ""
@@ -308,35 +302,35 @@ msgid ""
 "<embed> or <object>. Sites can use this to avoid click-jacking attacks, by "
 "ensuring that their content is not embedded into other sites."
 msgstr ""
-"Der HTTP-Antwortheader „X-Frame-Options“ kann verwendet werden, um "
-"anzugeben, ob ein Browser eine Seite in einem <frame>, <iframe>, <embed> "
-"oder <object> darstellen darf oder nicht. Websites können dies nutzen, um "
-"Clickjacking-Angriffe zu verhindern, indem sie sicherstellen, dass ihre "
-"Inhalte nicht in andere Websites eingebettet werden."
+"HTTP-svarhuvudet X-Frame-Options kan användas för att ange om en webbläsare "
+"ska tillåtas att visa en sida i ett <frame>, <iframe>, <embed> eller "
+"<object>. Webbplatser kan använda detta för att undvika clickjacking-"
+"attacker genom att se till att deras innehåll inte bäddas in på andra "
+"webbplatser."
 
 #: headers-security-advanced-hsts-wp.php:389
 msgid "Resolve duplicate site headers (beta):"
-msgstr "Doppelte Website-Header auflösen (Beta):"
+msgstr "Hantera dubbla webbplatsrubriker (beta):"
 
 #: headers-security-advanced-hsts-wp.php:393
 msgid "Disable (Strict-Transport-Security)."
-msgstr "(Strict-Transport-Security) deaktivieren."
+msgstr "Inaktivera (Strict-Transport-Security)."
 
 #: headers-security-advanced-hsts-wp.php:398
 msgid "Disable (Permissions-Policy)."
-msgstr "Deaktivieren (Berechtigungsrichtlinie)."
+msgstr "Inaktivera (behörighetspolicy)."
 
 #: headers-security-advanced-hsts-wp.php:403
 msgid "Disable (X-Content-Type-Options)."
-msgstr "Deaktivieren (X-Content-Type-Options)."
+msgstr "Inaktivera (X-Content-Type-Options)."
 
 #: headers-security-advanced-hsts-wp.php:408
 msgid "Disable (X-Frame-Options)."
-msgstr "(X-Frame-Options) deaktivieren."
+msgstr "Inaktivera (X-Frame-Options)."
 
 #: headers-security-advanced-hsts-wp.php:706
 msgid "Congratulations, you are safe!"
-msgstr "Herzlichen Glückwunsch, du bist in Sicherheit!"
+msgstr "Grattis, du är i säkerhet!"
 
 #: headers-security-advanced-hsts-wp.php:712
 #, php-format
@@ -347,37 +341,36 @@ msgid ""
 "have to think about anything). You will also be able to change the headers "
 "simply in the plugin settings."
 msgstr ""
-"%1$sDas Projekt „Headers Security Advanced & HSTS WP%2$s“ implementiert HTTP-"
-"Antwort-Header, mit denen Sie die Sicherheit Ihrer Website erhöhen können. "
-"Das Plugin richtet automatisch alle Best Practices ein (Sie müssen sich um "
-"nichts kümmern). Außerdem können Sie die Header ganz einfach in den Plugin-"
-"Einstellungen anpassen."
+"%1$sProjektet Headers Security Advanced & HSTS WP%2$s implementerar HTTP-"
+"svarhuvuden som din webbplats kan använda för att öka säkerheten. Pluginet "
+"konfigurerar automatiskt alla rekommenderade inställningar (du behöver inte "
+"tänka på någonting). Du kan också enkelt ändra huvudena i pluginets "
+"inställningar."
 
 #: headers-security-advanced-hsts-wp.php:735
 #, php-format
 msgid "Security is a right, not a privilege. Plugin version %s."
-msgstr "Sicherheit ist ein Recht, kein Privileg. Plugin-Version %s."
+msgstr "Säkerhet är en rättighet, inte en förmån. Plugin-version %s."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:40
 msgid "Your site is not using HTTPS"
-msgstr "Ihre Website verwendet kein HTTPS"
+msgstr "Din webbplats använder inte HTTPS"
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:41
 msgid ""
 "HSTS requires HTTPS. Enable SSL certificate first, then configure HSTS. Most "
 "hosting providers offer free SSL via Let's Encrypt."
 msgstr ""
-"HSTS erfordert HTTPS. Aktivieren Sie zunächst das SSL-Zertifikat und "
-"konfigurieren Sie anschließend HSTS. Die meisten Hosting-Anbieter bieten "
-"kostenloses SSL über Let's Encrypt an."
+"HSTS kräver HTTPS. Aktivera först SSL-certifikatet och konfigurera sedan "
+"HSTS. De flesta webbhotell erbjuder gratis SSL via Let's Encrypt."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:42
 msgid "Contact your hosting provider to enable SSL/HTTPS."
-msgstr "Wenden Sie sich an Ihren Hosting-Anbieter, um SSL/HTTPS zu aktivieren."
+msgstr "Kontakta din webbhotellleverantör för att aktivera SSL/HTTPS."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:51
 msgid "HSTS max-age too short"
-msgstr "Das HSTS-Max-Age ist zu kurz"
+msgstr "HSTS:s max-age är för kort"
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:53
 #, php-format
@@ -386,20 +379,19 @@ msgid ""
 "at least 31536000 (1 year). A longer max-age means browsers will remember to "
 "always use HTTPS for your site."
 msgstr ""
-"Dein „max-age“ beträgt %1$s Sekunden (%2$s Tage). Für die HSTS-Preload-Liste "
-"muss dieser Wert mindestens 31536000 (1 Jahr) betragen. Ein längerer „max-"
-"age“-Wert bedeutet, dass Browser sich merken, für deine Website immer HTTPS "
-"zu verwenden."
+"Din max-age är %1$s sekunder (%2$s dagar). För HSTS-förladdningslistan måste "
+"värdet vara minst 31536000 (1 år). En längre max-age innebär att webbläsarna "
+"kommer ihåg att alltid använda HTTPS för din webbplats."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:57
 msgid "Go to Settings → Max-Age and set it to 63072000 (2 years, recommended)."
 msgstr ""
-"Gehen Sie zu „Einstellungen“ → „Max-Age“ und stellen Sie den Wert auf "
-"63072000 ein (2 Jahre, empfohlen)."
+"Gå till Inställningar → Max-Age och ställ in värdet på 63072000 (2 år, "
+"rekommenderat)."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:66
 msgid "Ready for HSTS Preload"
-msgstr "Bereit für HSTS-Preload"
+msgstr "Redo för HSTS-förladdning"
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:67
 msgid ""
@@ -407,20 +399,21 @@ msgid ""
 "browsers will ALWAYS use HTTPS for your site, even on the first visit. It's "
 "the highest level of HTTPS protection."
 msgstr ""
-"Ihre Website erfüllt die Anforderungen für die HSTS-Preload-Liste. Das "
-"bedeutet, dass Browser für Ihre Website IMMER HTTPS verwenden, selbst beim "
-"ersten Besuch. Dies ist die höchste Stufe des HTTPS-Schutzes."
+"Din webbplats uppfyller kraven för HSTS-förladdningslistan. Det innebär att "
+"webbläsare ALLTID kommer att använda HTTPS för din webbplats, även vid det "
+"första besöket. Det är den högsta nivån av HTTPS-skydd."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:68
 msgid "Enable Preload in settings, then submit your site at hstspreload.org."
 msgstr ""
-"Aktivieren Sie „Preload“ in den Einstellungen und reichen Sie Ihre Website "
-"anschließend unter hstspreload.org ein."
+"Aktivera förladdning i inställningarna och skicka sedan in din webbplats "
+"till hstspreload.org."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:80
 msgid "Content Security Policy is using default (basic) settings"
 msgstr ""
-"Die Content Security Policy verwendet die Standardeinstellungen (Basis)"
+"Innehållssäkerhetspolicyn använder standardinställningarna (grundläggande "
+"inställningar)"
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:81
 msgid ""
@@ -428,23 +421,22 @@ msgid ""
 "exactly which resources are allowed to load on your site, blocking "
 "everything else. This is the most powerful protection against XSS attacks."
 msgstr ""
-"Die Standard-CSP erzwingt lediglich HTTPS-Upgrades. Eine benutzerdefinierte "
-"CSP teilt den Browsern genau mit, welche Ressourcen auf Ihrer Website "
-"geladen werden dürfen, und blockiert alles andere. Dies ist der wirksamste "
-"Schutz gegen XSS-Angriffe."
+"Standard-CSP kräver endast HTTPS-uppgraderingar. En anpassad CSP anger exakt "
+"vilka resurser som får laddas på din webbplats och blockerar allt annat. "
+"Detta är det mest effektiva skyddet mot XSS-attacker."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:82
 msgid ""
 "Configure a custom CSP in Settings → CSP Header Contents. Start with report-"
 "only mode to test before enforcing."
 msgstr ""
-"Konfigurieren Sie einen benutzerdefinierten CSP unter „Einstellungen“ → "
-"„Inhalt des CSP-Headers“. Beginnen Sie mit dem reinen Berichtsmodus, um das "
-"Ganze zu testen, bevor Sie die Änderung übernehmen."
+"Konfigurera en anpassad CSP under Inställningar → Innehåll i CSP-rubrik. "
+"Börja med läget ”endast rapport” för att testa innan du tillämpar "
+"inställningarna."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:91
 msgid "CSP allows inline scripts (unsafe-inline)"
-msgstr "CSP lässt Inline-Skripte zu (unsafe-inline)"
+msgstr "CSP tillåter inline-skript (unsafe-inline)"
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:92
 msgid ""
@@ -452,41 +444,38 @@ msgid ""
 "inject inline scripts, making it hard to avoid. For maximum security, "
 "consider using nonce-based CSP in the future."
 msgstr ""
-"Dies ist bei WordPress-Seiten üblich, schwächt jedoch den CSP-Schutz. Viele "
-"Plugins fügen Inline-Skripte ein, was es schwierig macht, dies zu vermeiden. "
-"Für maximale Sicherheit sollten Sie in Zukunft die Verwendung eines Nonce-"
-"basierten CSP in Betracht ziehen."
+"Detta är vanligt på WordPress-webbplatser, men försvagar CSP-skyddet. Många "
+"plugins infogar inline-skript, vilket gör det svårt att undvika. För bästa "
+"möjliga säkerhet bör du överväga att använda nonce-baserad CSP i framtiden."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:93
 msgid ""
 "This is acceptable for most WordPress sites. Focus on other headers first."
 msgstr ""
-"Für die meisten WordPress-Seiten ist das in Ordnung. Kümmere dich zuerst um "
-"die anderen Header."
+"Detta fungerar för de flesta WordPress-webbplatser. Fokusera på andra "
+"rubriker först."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:102
 msgid "CSP uses wildcard (*)"
-msgstr "CSP verwendet den Platzhalter (*)"
+msgstr "CSP använder jokertecken (*)"
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:103
 msgid ""
 "A wildcard allows resources from any domain, which reduces the effectiveness "
 "of CSP. Try to specify exact domains instead."
 msgstr ""
-"Ein Platzhalter lässt Ressourcen aus beliebigen Domänen zu, was die "
-"Wirksamkeit von CSP einschränkt. Versuchen Sie stattdessen, genaue Domänen "
-"anzugeben."
+"Ett jokertecken tillåter resurser från vilken domän som helst, vilket "
+"minskar CSP:s effektivitet. Försök istället att ange exakta domäner."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:104
 msgid ""
 "Replace * with specific domains (e.g., *.googleapis.com, *.cloudflare.com)."
 msgstr ""
-"Ersetzen Sie * durch bestimmte Domains (z. B. *.googleapis.com, "
-"*.cloudflare.com)."
+"Ersätt * med specifika domäner (t.ex. *.googleapis.com, *.cloudflare.com)."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:115
 msgid "CSP violation reporting not configured"
-msgstr "Die Meldung von CSP-Verstößen ist nicht konfiguriert"
+msgstr "Rapportering av CSP-överträdelser är inte konfigurerad"
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:116
 msgid ""
@@ -494,21 +483,21 @@ msgid ""
 "unexpected. With Shield, you can use the built-in CSP analytics endpoint or "
 "connect Sentry/Datadog."
 msgstr ""
-"Ohne CSP-Berichterstattung erfahren Sie nicht, wann Ihre Richtlinie etwas "
-"Unerwartetes blockiert. Mit Shield können Sie den integrierten CSP-Analytics-"
-"Endpunkt nutzen oder Sentry/Datadog anbinden."
+"Utan CSP-rapportering vet du inte när din policy blockerar något oväntat. "
+"Med Shield kan du använda den inbyggda CSP-analysändpunkten eller ansluta "
+"Sentry/Datadog."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:117
 msgid ""
 "Configure the CSP Report URI in settings or use the built-in Shield "
 "analytics endpoint."
 msgstr ""
-"Konfigurieren Sie die CSP-Berichts-URI in den Einstellungen oder verwenden "
-"Sie den integrierten Shield-Analytics-Endpunkt."
+"Konfigurera CSP-rapportens URI i inställningarna eller använd den inbyggda "
+"Shield-analysändpunkten."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:133
 msgid "Camera/Microphone permissions too open"
-msgstr "Zu weitreichende Berechtigungen für Kamera und Mikrofon"
+msgstr "Behörigheterna för kamera och mikrofon är för generösa"
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:134
 msgid ""
@@ -516,39 +505,37 @@ msgid ""
 "Unless your site needs these features, restrict them to prevent unauthorized "
 "access."
 msgstr ""
-"Ihre Berechtigungsrichtlinie erlaubt jeder Website den Zugriff auf Kamera "
-"und Mikrofon. Sofern Ihre Website diese Funktionen nicht benötigt, sollten "
-"Sie den Zugriff darauf einschränken, um unbefugten Zugriff zu verhindern."
+"Enligt din behörighetspolicy har alla webbplatser tillgång till kamera och "
+"mikrofon. Om din webbplats inte behöver dessa funktioner bör du begränsa "
+"åtkomsten för att förhindra obehörig åtkomst."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:135
 msgid ""
 "Set camera=() and microphone=() in Permissions Policy to disable them "
 "completely."
 msgstr ""
-"Setzen Sie in der Berechtigungsrichtlinie „camera=()“ und „microphone=()“, "
-"um diese Funktionen vollständig zu deaktivieren."
+"Ange camera=() och microphone=() i behörighetspolicyn för att inaktivera dem "
+"helt."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:149
 msgid "X-Frame-Options ALLOW-FROM is set without a URL"
-msgstr "„X-Frame-Options ALLOW-FROM“ ist ohne URL festgelegt"
+msgstr "X-Frame-Options ALLOW-FROM är inställt utan någon URL"
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:150
 msgid ""
 "ALLOW-FROM requires a specific URL. Without it, the header is invalid and "
 "your site is vulnerable to clickjacking attacks."
 msgstr ""
-"„ALLOW-FROM“ erfordert eine bestimmte URL. Ohne diese ist der Header "
-"ungültig und Ihre Website ist anfällig für Clickjacking-Angriffe."
+"ALLOW-FROM kräver en specifik URL. Utan den är rubriken ogiltig och din "
+"webbplats är utsatt för clickjacking-attacker."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:151
 msgid "Either add a specific URL or switch to DENY/SAMEORIGIN."
-msgstr ""
-"Fügen Sie entweder eine bestimmte URL hinzu oder wechseln Sie zu „DENY/"
-"SAMEORIGIN“."
+msgstr "Ange antingen en specifik URL eller välj alternativet DENY/SAMEORIGIN."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:159
 msgid "ALLOW-FROM is deprecated"
-msgstr "ALLOW-FROM ist veraltet"
+msgstr "ALLOW-FROM är föråldrat"
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:160
 msgid ""
@@ -556,21 +543,21 @@ msgid ""
 "Firefox). Use CSP frame-ancestors directive instead for the same effect with "
 "better browser support."
 msgstr ""
-"Die ALLOW-FROM-Direktive wird von modernen Browsern (Chrome, Firefox) nicht "
-"unterstützt. Verwenden Sie stattdessen die CSP-Direktive „frame-ancestors“, "
-"um denselben Effekt mit besserer Browserunterstützung zu erzielen."
+"Direktivet ALLOW-FROM stöds inte av moderna webbläsare (Chrome, Firefox). "
+"Använd istället CSP-direktivet frame-ancestors för att uppnå samma effekt "
+"med bättre stöd i webbläsarna."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:161
 msgid ""
 "Switch to DENY or SAMEORIGIN and use CSP frame-ancestors for fine-grained "
 "control."
 msgstr ""
-"Wechseln Sie zu „DENY“ oder „SAMEORIGIN“ und nutzen Sie CSP-Frame-Ancestors "
-"für eine fein abgestimmte Steuerung."
+"Ställ in till DENY eller SAMEORIGIN och använd CSP-ramförfäder för mer "
+"detaljerad kontroll."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:177
 msgid "Some headers are disabled to avoid duplicates"
-msgstr "Einige Überschriften sind deaktiviert, um Doppelungen zu vermeiden"
+msgstr "Vissa rubriker är inaktiverade för att undvika dubbletter"
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:178
 msgid ""
@@ -578,33 +565,33 @@ msgid ""
 "sets them. This is correct and prevents duplicate header issues. Make sure "
 "the server-level headers are properly configured."
 msgstr ""
-"Sie haben einige Header deaktiviert, wahrscheinlich weil Ihr Hosting-Server "
-"diese bereits setzt. Das ist richtig und verhindert Probleme durch doppelte "
-"Header. Stellen Sie sicher, dass die Header auf Serverebene korrekt "
-"konfiguriert sind."
+"Du har inaktiverat vissa rubriker, troligen eftersom din webbserver redan "
+"ställer in dem. Detta är korrekt och förhindrar problem med dubbla rubriker. "
+"Se till att rubrikerna på servernivå är korrekt konfigurerade."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:179
 msgid ""
 "Verify your server headers using the External Scan link in the dashboard."
 msgstr ""
-"Überprüfen Sie Ihre Server-Header über den Link „Externer Scan“ im Dashboard."
+"Kontrollera dina serverhuvuden via länken ”Extern skanning” på "
+"instrumentpanelen."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:189
 msgid "🎉 Excellent! Your security headers are well configured."
-msgstr "🎉 Super! Deine Sicherheits-Header sind korrekt konfiguriert."
+msgstr "🎉 Utmärkt! Dina säkerhetsrubriker är korrekt konfigurerade."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:190
 msgid ""
 "All major security headers are active and properly configured. Keep an eye "
 "on the weekly scan reports for any changes."
 msgstr ""
-"Alle wichtigen Sicherheits-Header sind aktiv und korrekt konfiguriert. "
-"Behalten Sie die wöchentlichen Scan-Berichte im Auge, um eventuelle "
-"Änderungen zu erkennen."
+"Alla viktiga säkerhetsrubriker är aktiva och korrekt konfigurerade. Håll "
+"koll på de veckovisa skanningsrapporterna för att se om det skett några "
+"förändringar."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:191
 msgid "No action needed. Your site is well protected."
-msgstr "Es sind keine Maßnahmen erforderlich. Ihre Website ist gut geschützt."
+msgstr "Ingen åtgärd behövs. Din webbplats är väl skyddad."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:212
 #: pro/includes/class-hsts-pro-csp-analytics.php:188
@@ -615,23 +602,23 @@ msgstr "Es sind keine Maßnahmen erforderlich. Ihre Website ist gut geschützt."
 #: pro/includes/class-hsts-pro-webhooks.php:267
 #: pro/includes/class-hsts-pro-webhooks.php:413
 msgid "Insufficient permissions."
-msgstr "Keine Berechtigung."
+msgstr "Otillräckliga behörigheter."
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:234
 msgid "🚨 Critical"
-msgstr "🚨 Kritisch"
+msgstr "🚨 Allvarligt"
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:235
 msgid "⚠️ High"
-msgstr "⚠️ Hoch"
+msgstr "⚠️ Hög"
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:236
 msgid "💡 Medium"
-msgstr "💡 Mittel"
+msgstr "💡 Medium"
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:237
 msgid "ℹ️ Low"
-msgstr "ℹ️ Niedrig"
+msgstr "ℹ️ Låg"
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:238
 msgid "📋 Info"
@@ -639,46 +626,46 @@ msgstr "📋 Info"
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:239
 msgid "✅ All Good"
-msgstr "✅ Alles in Ordnung"
+msgstr "✅ Allt är bra"
 
 #: pro/includes/class-hsts-pro-ai-advisor.php:244 pro/loader.php:287
 msgid "Security Advisor"
-msgstr "Sicherheitsberater"
+msgstr "Säkerhetsrådgivare"
 
 #. translators: %1$d old score, %2$d new score
 #: pro/includes/class-hsts-pro-alerts.php:47
 #, php-format
 msgid "📉 Security score dropped from %1$d to %2$d."
-msgstr "📉 Die Sicherheitsbewertung ist von %1$d auf %2$d gesunken."
+msgstr "📉 Säkerhetsbetyget sjönk från %1$d till %2$d."
 
 #. translators: %s is header name
 #: pro/includes/class-hsts-pro-alerts.php:63
 #, php-format
 msgid "❌ Header %s was removed or is no longer present."
-msgstr "❌ Die Kopfzeile %s wurde entfernt oder ist nicht mehr vorhanden."
+msgstr "❌ Rubrik %s har tagits bort eller finns inte längre kvar."
 
 #: pro/includes/class-hsts-pro-dashboard.php:172
 msgid "You do not have sufficient permissions."
-msgstr "Sie verfügen nicht über die erforderlichen Berechtigungen."
+msgstr "Du har inte tillräckliga behörigheter."
 
 #: pro/includes/class-hsts-pro-dashboard.php:186
 msgid "Security Headers Dashboard"
-msgstr "Dashboard für Sicherheits-Header"
+msgstr "Översikt över säkerhetsrubriker"
 
 #: pro/includes/class-hsts-pro-dashboard.php:208
 msgid "🎉 Excellent! Your site is well protected."
-msgstr "🎉 Super! Deine Website ist gut geschützt."
+msgstr "🎉 Utmärkt! Din webbplats är väl skyddad."
 
 #: pro/includes/class-hsts-pro-dashboard.php:210
 msgid "⚠️ Good, but there's room for improvement."
-msgstr "⚠️ Gut, aber es gibt noch Verbesserungspotenzial."
+msgstr "⚠️ Bra, men det finns utrymme för förbättringar."
 
 #: pro/includes/class-hsts-pro-dashboard.php:212
 msgid ""
 "🚨 Your site needs attention. Several headers are missing or misconfigured."
 msgstr ""
-"🚨 Ihre Website benötigt Ihre Aufmerksamkeit. Es fehlen mehrere Header oder "
-"diese sind falsch konfiguriert."
+"🚨 Din webbplats behöver ses över. Flera rubriker saknas eller är felaktigt "
+"konfigurerade."
 
 #: pro/includes/class-hsts-pro-dashboard.php:219
 #, php-format
@@ -686,26 +673,26 @@ msgid ""
 "Your security headers are protecting against %1$s out of %2$s threat "
 "categories. Each header blocks a specific type of attack."
 msgstr ""
-"Ihre Sicherheits-Header schützen vor %1$s von %2$s Bedrohungskategorien. "
-"Jeder Header blockiert eine bestimmte Art von Angriff."
+"Dina säkerhetsrubriker skyddar mot %1$s av %2$s hotkategorier. Varje rubrik "
+"blockerar en specifik typ av attack."
 
 #: pro/includes/class-hsts-pro-dashboard.php:229
 #, php-format
 msgid "Last scan: %s"
-msgstr "Letzter Scan: %s"
+msgstr "Senaste skanning: %s"
 
 #: pro/includes/class-hsts-pro-dashboard.php:230
 msgid "ago"
-msgstr "vor"
+msgstr "sedan"
 
 #: pro/includes/class-hsts-pro-dashboard.php:242
 msgid "🛡️ Header Status"
-msgstr "🛡️ Status der Kopfzeile"
+msgstr "🛡️ Status för rubriken"
 
 #: pro/includes/class-hsts-pro-dashboard.php:248
 #: pro/includes/class-hsts-pro-report.php:192
 msgid "Header"
-msgstr "Header"
+msgstr "Sidhuvud"
 
 #: pro/includes/class-hsts-pro-dashboard.php:249
 msgid "Status"
@@ -713,236 +700,222 @@ msgstr "Status"
 
 #: pro/includes/class-hsts-pro-dashboard.php:250
 msgid "What it protects"
-msgstr "Was es schützt"
+msgstr "Vad det skyddar"
 
 #: pro/includes/class-hsts-pro-dashboard.php:257
 msgid "Secure"
-msgstr "Sichern"
+msgstr "Säker"
 
 #: pro/includes/class-hsts-pro-dashboard.php:259
 msgid "Needs work"
-msgstr ""
-"\n"
-"Braucht Arbeit"
+msgstr "Behöver förbättras"
 
 #: pro/includes/class-hsts-pro-dashboard.php:260 pro/loader.php:349
 msgid "Missing"
-msgstr "Fehlend"
+msgstr "Saknas"
 
 #: pro/includes/class-hsts-pro-dashboard.php:284
 msgid "Configure Headers"
-msgstr "Kopfzeilen konfigurieren"
+msgstr "Konfigurera rubriker"
 
 #: pro/includes/class-hsts-pro-dashboard.php:285
 msgid "Customize HSTS, CSP, and other security headers."
-msgstr "Passen Sie HSTS, CSP und andere Sicherheits-Header an."
+msgstr "Anpassa HSTS, CSP och andra säkerhetsrubriker."
 
 #: pro/includes/class-hsts-pro-dashboard.php:289
 msgid "External Scan"
-msgstr "Externer Scan"
+msgstr "Extern skanning"
 
 #: pro/includes/class-hsts-pro-dashboard.php:290
 msgid "Verify your headers on SecurityHeaders.com"
-msgstr "Überprüfen Sie Ihre Header auf SecurityHeaders.com"
+msgstr "Kontrollera dina rubriker på SecurityHeaders.com"
 
 #: pro/includes/class-hsts-pro-dashboard.php:305
 msgid "Forces encrypted (HTTPS) connection. Blocks eavesdropping attacks."
 msgstr ""
-"Erzwingt eine verschlüsselte (HTTPS) Verbindung. Verhindert Abhörangriffe."
+"Tvingar fram en krypterad (HTTPS) anslutning. Blockerar avlyssningsattacker."
 
 #: pro/includes/class-hsts-pro-dashboard.php:306
 msgid "Controls what resources can load. Blocks code injection and XSS."
-msgstr ""
-"Steuert, welche Ressourcen geladen werden dürfen. Verhindert Code-Injektion "
-"und XSS."
+msgstr "Styr vilka resurser som får laddas. Blockerar kodinjektion och XSS."
 
 #: pro/includes/class-hsts-pro-dashboard.php:307
 msgid ""
 "Prevents browser from guessing file types. Blocks MIME-sniffing attacks."
 msgstr ""
-"Verhindert, dass der Browser Dateitypen errät. Blockiert MIME-Sniffing-"
-"Angriffe."
+"Förhindrar att webbläsaren gissar filtyper. Blockerar MIME-sniffing-attacker."
 
 #: pro/includes/class-hsts-pro-dashboard.php:308
 msgid "Prevents your site from being embedded in frames. Blocks clickjacking."
 msgstr ""
-"Verhindert, dass Ihre Website in Frames eingebettet wird. Blockiert "
-"Clickjacking."
+"Förhindrar att din webbplats bäddas in i ramar. Blockerar clickjacking."
 
 #: pro/includes/class-hsts-pro-dashboard.php:309
 msgid "Controls what info is sent when users click links. Protects privacy."
 msgstr ""
-"Legt fest, welche Informationen gesendet werden, wenn Nutzer auf Links "
-"klicken. Schützt die Privatsphäre."
+"Styr vilken information som skickas när användare klickar på länkar. Skyddar "
+"integriteten."
 
 #: pro/includes/class-hsts-pro-dashboard.php:310
 msgid ""
 "Controls browser features (camera, mic, location). Blocks unauthorized "
 "access."
 msgstr ""
-"Steuert die Browserfunktionen (Kamera, Mikrofon, Standort). Blockiert "
-"unbefugten Zugriff."
+"Styr webbläsarens funktioner (kamera, mikrofon, plats). Blockerar obehörig "
+"åtkomst."
 
 #: pro/includes/class-hsts-pro-dashboard.php:311
 msgid "Isolates your site from pop-ups. Blocks cross-origin attacks."
-msgstr "Schützt Ihre Website vor Pop-ups. Blockiert Cross-Origin-Angriffe."
+msgstr ""
+"Skyddar din webbplats mot popup-fönster. Blockerar attacker från andra "
+"domäner."
 
 #: pro/includes/class-hsts-pro-dashboard.php:312
 msgid "Controls how resources are loaded cross-origin. Adds isolation."
-msgstr ""
-"Steuert, wie Ressourcen über Domänengrenzen hinweg geladen werden. Sorgt für "
-"eine Isolierung."
+msgstr "Styr hur resurser laddas från andra domäner. Tillför isolering."
 
 #: pro/includes/class-hsts-pro-dashboard.php:313
 msgid "Controls who can load your resources. Blocks data theft."
-msgstr "Legt fest, wer Ihre Ressourcen laden darf. Verhindert Datendiebstahl."
+msgstr "Styr vem som kan ladda ner dina resurser. Förhindrar datastöld."
 
 #: pro/includes/class-hsts-pro-dashboard.php:314
 msgid "Blocks Flash/PDF from loading cross-domain data."
-msgstr "Verhindert, dass Flash/PDF domänenübergreifende Daten lädt."
+msgstr "Förhindrar att Flash/PDF laddar data från andra domäner."
 
 #: pro/includes/class-hsts-pro-dashboard.php:317
 msgid "Security header active."
-msgstr "Sicherheits-Header aktiv."
+msgstr "Säkerhetsrubriken är aktiverad."
 
 #: pro/includes/class-hsts-pro-license.php:256
 msgid "Invalid license key format."
-msgstr "Ungültiges Lizenzschlüsselformat."
+msgstr "Ogiltigt format på licensnyckeln."
 
 #: pro/includes/class-hsts-pro-license.php:289
 msgid "License activated! Shield features are now available. Reloading..."
 msgstr ""
-"Lizenz aktiviert! Die Funktionen von Shield sind nun verfügbar. Wird neu "
-"geladen..."
+"Licensen är aktiverad! Sköldens funktioner är nu tillgängliga. Laddar om..."
 
 #: pro/includes/class-hsts-pro-license.php:320
 msgid "License deactivated. Free features remain active."
-msgstr ""
-"Lizenz deaktiviert. Die kostenlosen Funktionen bleiben weiterhin aktiv."
+msgstr "Licensen har inaktiverats. Gratisfunktionerna förblir aktiva."
 
 #: pro/includes/class-hsts-pro-license.php:394
 msgid "Could not reach license server. Please try again."
-msgstr ""
-"Der Lizenzserver konnte nicht erreicht werden. Bitte versuche es erneut."
+msgstr "Det gick inte att ansluta till licensservern. Försök igen."
 
 #: pro/includes/class-hsts-pro-license.php:402
 msgid "Invalid response from license server."
-msgstr "Ungültige Antwort vom Lizenzserver."
+msgstr "Ogiltigt svar från licensservern."
 
 #: pro/includes/class-hsts-pro-license.php:430
 msgid "License key not found. Please check and try again."
-msgstr ""
-"Der Lizenzschlüssel wurde nicht gefunden. Bitte überprüfen Sie die Angaben "
-"und versuchen Sie es erneut."
+msgstr "Licensnyckeln hittades inte. Kontrollera och försök igen."
 
 #: pro/includes/class-hsts-pro-license.php:433
 msgid "This license has been disabled. Contact support."
-msgstr "Diese Lizenz wurde deaktiviert. Wenden Sie sich an den Support."
+msgstr "Denna licens har inaktiverats. Kontakta supporten."
 
 #: pro/includes/class-hsts-pro-license.php:436
 msgid "This license has expired. Please renew."
-msgstr "Diese Lizenz ist abgelaufen. Bitte verlängern Sie sie."
+msgstr "Denna licens har gått ut. Förnya den."
 
 #: pro/includes/class-hsts-pro-license.php:439
 msgid ""
 "Maximum activations reached. Deactivate on another site first, or contact "
 "support."
 msgstr ""
-"Die maximale Anzahl an Aktivierungen wurde erreicht. Deaktivieren Sie "
-"zunächst eine Aktivierung an einem anderen Standort oder wenden Sie sich an "
-"den Support."
+"Maximalt antal aktiveringar har uppnåtts. Avaktivera först på en annan "
+"webbplats eller kontakta supporten."
 
 #: pro/includes/class-hsts-pro-license.php:444
 msgid "License validation failed. Please check your key."
-msgstr ""
-"Die Lizenzvalidierung ist fehlgeschlagen. Bitte überprüfen Sie Ihren "
-"Schlüssel."
+msgstr "Licensvalideringen misslyckades. Kontrollera din nyckel."
 
 #: pro/includes/class-hsts-pro-report.php:162
 msgid "points added by the plugin"
-msgstr "vom Plugin hinzugefügte Punkte"
+msgstr "poäng som tillförs av tillägget"
 
 #: pro/includes/class-hsts-pro-report.php:169
 #: pro/includes/class-hsts-pro-report.php:193
 msgid "Without Plugin"
-msgstr "Ohne Plugin"
+msgstr "Utan plugin"
 
 #: pro/includes/class-hsts-pro-report.php:174
 #, php-format
 msgid "%d of 10 headers from server"
-msgstr "%d von 10 Headern vom Server"
+msgstr "%d av 10 rubriker från servern"
 
 #: pro/includes/class-hsts-pro-report.php:178
 #: pro/includes/class-hsts-pro-report.php:194
 msgid "With Plugin"
-msgstr "Mit Plugin"
+msgstr "Med plugin"
 
 #: pro/includes/class-hsts-pro-report.php:183
 #, php-format
 msgid "%d of 10 headers active"
-msgstr "%d von 10 Überschriften aktiv"
+msgstr "%d av 10 rubriker aktiva"
 
 #: pro/includes/class-hsts-pro-report.php:188 pro/loader.php:324
 msgid "Header Status"
-msgstr "Kopfzeilenstatus"
+msgstr "Rubrikstatus"
 
 #: pro/includes/class-hsts-pro-report.php:204
 msgid "Issues Found"
-msgstr "Probleme gefunden"
+msgstr "Upptäckta problem"
 
 #: pro/includes/class-hsts-pro-report.php:217
 msgid "Verify independently:"
-msgstr "Bitte überprüfen Sie dies selbstständig:"
+msgstr "Kontrollera självständigt:"
 
 #. translators: %s is the error message
 #: pro/includes/class-hsts-pro-scanner.php:54
 #, php-format
 msgid "Could not reach site: %s"
-msgstr "Die Website konnte nicht aufgerufen werden: %s"
+msgstr "Det gick inte att nå webbplatsen: %s"
 
 #: pro/includes/class-hsts-pro-scanner.php:133
 msgid "HSTS header is missing. Your site is vulnerable to downgrade attacks."
 msgstr ""
-"Der HSTS-Header fehlt. Ihre Website ist anfällig für Downgrade-Angriffe."
+"HSTS-rubriken saknas. Din webbplats är utsatt för nedgraderingsattacker."
 
 #: pro/includes/class-hsts-pro-scanner.php:143
 msgid ""
 "Increase max-age to at least 31536000 (1 year) for HSTS preload eligibility."
 msgstr ""
-"Erhöhen Sie den Wert für „max-age“ auf mindestens 31536000 (1 Jahr), um die "
-"Voraussetzungen für das HSTS-Preload zu erfüllen."
+"Höj max-age till minst 31536000 (1 år) för att uppfylla kraven för HSTS-"
+"förladdning."
 
 #: pro/includes/class-hsts-pro-scanner.php:151
 msgid "Consider adding preload directive for HSTS preload list submission."
 msgstr ""
-"Erwägen Sie, eine Preload-Anweisung für die Übermittlung der HSTS-Preload-"
-"Liste hinzuzufügen."
+"Överväg att lägga till ett preload-direktiv för inlämning till HSTS-preload-"
+"listan."
 
 #: pro/includes/class-hsts-pro-scanner.php:165
 msgid "CSP header is missing. Your site is vulnerable to XSS attacks."
-msgstr "Der CSP-Header fehlt. Ihre Website ist anfällig für XSS-Angriffe."
+msgstr "CSP-rubriken saknas. Din webbplats är utsatt för XSS-attacker."
 
 #: pro/includes/class-hsts-pro-scanner.php:173
 msgid ""
 "CSP allows unsafe-inline scripts. Consider using nonce-based or hash-based "
 "CSP for stronger protection."
 msgstr ""
-"CSP lässt unsichere Inline-Skripte zu. Erwägen Sie die Verwendung einer "
-"Nonce-basierten oder Hash-basierten CSP für einen stärkeren Schutz."
+"CSP tillåter osäkra inline-skript. Överväg att använda nonce-baserad eller "
+"hash-baserad CSP för bättre skydd."
 
 #: pro/includes/class-hsts-pro-scanner.php:180
 msgid ""
 "CSP allows unsafe-eval. This permits dynamic code execution, which is a "
 "security risk."
 msgstr ""
-"CSP lässt „unsafe-eval“ zu. Dies ermöglicht die dynamische Codeausführung, "
-"was ein Sicherheitsrisiko darstellt."
+"CSP tillåter unsafe-eval. Detta möjliggör dynamisk kodkörning, vilket utgör "
+"en säkerhetsrisk."
 
 #. translators: %s is header name
 #: pro/includes/class-hsts-pro-scanner.php:195
 #, php-format
 msgid "Header %s is not present in the response."
-msgstr "Der Header %s ist in der Antwort nicht enthalten."
+msgstr "Rubriken %s finns inte med i svaret."
 
 #. translators: %s is header name
 #: pro/includes/class-hsts-pro-scanner.php:228
@@ -951,51 +924,49 @@ msgid ""
 "Duplicate header detected: %s. This can cause browser conflicts. Use the "
 "plugin's \"Resolve duplicate headers\" option."
 msgstr ""
-"Es wurde ein doppelter Header erkannt: %s. Dies kann zu Konflikten im "
-"Browser führen. Verwenden Sie die Option „Doppelte Header auflösen“ des "
-"Plugins."
+"Dubbel rubrik upptäckt: %s. Detta kan orsaka konflikter i webbläsaren. "
+"Använd plugin-programmets alternativ ”Lösa dubbla rubriker”."
 
 #: pro/includes/class-hsts-pro-webhooks.php:86
 #, php-format
 msgid "Security score dropped from %1$d to %2$d"
-msgstr "Die Sicherheitsbewertung ist von %1$d auf %2$d gesunken"
+msgstr "Säkerhetsbetyget sjönk från %1$d till %2$d"
 
 #: pro/includes/class-hsts-pro-webhooks.php:102
 #, php-format
 msgid "Header removed: %s"
-msgstr "Kopfzeile entfernt: %s"
+msgstr "Rubrik borttagen: %s"
 
 #: pro/includes/class-hsts-pro-webhooks.php:122
 #, php-format
 msgid "Weekly scan completed. Score: %1$d/100 (Grade: %2$s)"
-msgstr "Wöchentlicher Scan abgeschlossen. Punktzahl: %1$d/100 (Note: %2$s)"
+msgstr "Veckans genomsökning är klar. Poäng: %1$d/100 (Betyg: %2$s)"
 
 #: pro/includes/class-hsts-pro-webhooks.php:280
 msgid "No webhook URL provided."
-msgstr "Es wurde keine Webhook-URL angegeben."
+msgstr "Ingen webhook-URL har angetts."
 
 #: pro/includes/class-hsts-pro-webhooks.php:283
 msgid ""
 "This is a test notification from Headers Security Advanced & HSTS WP Shield."
 msgstr ""
-"Dies ist eine Testbenachrichtigung von Headers Security Advanced & HSTS WP "
-"Shield."
+"Detta är ett testmeddelande från Headers Security Advanced & HSTS WP Shield."
 
 #: pro/includes/class-hsts-pro-webhooks.php:303
 msgid "Test notification sent!"
-msgstr "Testbenachrichtigung gesendet!"
+msgstr "Testmeddelandet har skickats!"
 
 #: pro/includes/class-hsts-pro-webhooks.php:339
 msgid "Custom Webhook (JSON POST)"
-msgstr "Benutzerdefinierter Webhook (JSON-POST)"
+msgstr "Anpassad webhook (JSON POST)"
 
 #: pro/includes/class-hsts-pro-webhooks.php:348
 msgid "Webhook Notifications"
-msgstr "Webhook-Benachrichtigungen"
+msgstr "Webhook-aviseringar"
 
 #: pro/includes/class-hsts-pro-webhooks.php:360
 msgid "How to set up"
-msgstr "So richten Sie es ein"
+msgstr "Så här gör du"
 
 #: pro/includes/class-hsts-pro-webhooks.php:372 pro/loader.php:804
 msgid "Test"
@@ -1003,69 +974,68 @@ msgstr "Test"
 
 #: pro/includes/class-hsts-pro-webhooks.php:381
 msgid "Send notifications when:"
-msgstr "Benachrichtigungen senden, wenn:"
+msgstr "Skicka aviseringar när:"
 
 #: pro/includes/class-hsts-pro-webhooks.php:385 pro/loader.php:812
 msgid "Security score drops"
-msgstr "Sicherheitsbewertung sinkt"
+msgstr "Säkerhetsbetyget sjunker"
 
 #: pro/includes/class-hsts-pro-webhooks.php:386 pro/loader.php:812
 msgid "A header is removed"
-msgstr "Eine Kopfzeile wird entfernt"
+msgstr "En rubrik tas bort"
 
 #: pro/includes/class-hsts-pro-webhooks.php:387 pro/loader.php:812
 msgid "Critical issues found"
-msgstr "Festgestellte kritische Probleme"
+msgstr "Kritiska problem som upptäckts"
 
 #: pro/includes/class-hsts-pro-webhooks.php:388
 msgid "Every scan (including clean reports)"
-msgstr "Jeder Scan (einschließlich einwandfreier Berichte)"
+msgstr "Varje skanning (även om rapporten är felfri)"
 
 #: pro/includes/class-hsts-pro-webhooks.php:447
 msgid "Notification settings saved."
-msgstr "Benachrichtigungseinstellungen gespeichert."
+msgstr "Aviseringsinställningarna har sparats."
 
 #: pro/loader.php:85
 msgid "Invalid export file."
-msgstr "Ungültige Exportdatei."
+msgstr "Ogiltig exportfil."
 
 #: pro/loader.php:109
 #, php-format
 msgid "Imported %d settings successfully. Reloading..."
-msgstr "Einstellungen %d wurden erfolgreich importiert. Wird neu geladen..."
+msgstr "Inställningarna %d har importerats. Laddar om..."
 
 #: pro/loader.php:155
 msgid "Unlock Shield"
-msgstr "Schild entsperren"
+msgstr "Lås upp skölden"
 
 #: pro/loader.php:157
 msgid "Or enter your license key in the License tab."
-msgstr ""
-"Oder geben Sie Ihren Lizenzschlüssel auf der Registerkarte „Lizenz“ ein."
+msgstr "Eller ange din licensnyckel på fliken Licens."
 
 #: pro/loader.php:190
 msgid "Settings"
-msgstr "Einstellungen"
+msgstr "Inställningar"
 
 #: pro/loader.php:191
 msgid "Dashboard"
-msgstr "Dashboard"
+msgstr "Instrumentpanel"
 
 #: pro/loader.php:193 pro/loader.php:777 pro/loader.php:779
 msgid "Notifications"
-msgstr "Benachrichtigungen"
+msgstr "Aviseringar"
 
 #: pro/loader.php:194
 msgid "Export / Import"
-msgstr "Export / Import"
+msgstr "Export / import"
 
 #: pro/loader.php:195
 msgid "License"
-msgstr "Lizenz"
+msgstr "Licens"
 
 #: pro/loader.php:196
 msgid "Free vs Shield"
-msgstr "Free gegen Shield"
+msgstr "Free mot Shield"
 
 #: pro/loader.php:197
 msgid "FAQ"
@@ -1076,81 +1046,79 @@ msgid ""
 "Security score (A-F), AI-powered recommendations, header status for all 10 "
 "security headers, automated scanning, and scan history."
 msgstr ""
-"Sicherheitsbewertung (A–F), KI-gestützte Empfehlungen, Status aller 10 "
-"Sicherheits-Header, automatische Überprüfung und Überprüfungsverlauf."
+"Säkerhetsbetyg (A–F), AI-baserade rekommendationer, status för samtliga 10 "
+"säkerhetsrubriker, automatisk skanning och skanningshistorik."
 
 #: pro/loader.php:260
 msgid "No scan yet"
-msgstr "Noch kein Scan"
+msgstr "Ingen skanning ännu"
 
 #: pro/loader.php:264
 #, php-format
 msgid "%d/%d bonus headers"
-msgstr "%d/%d zusätzliche Überschriften"
+msgstr "%d/%d extra rubriker"
 
 #: pro/loader.php:268
 msgid "Verify on SecurityHeaders.com"
-msgstr "Überprüfen Sie dies auf SecurityHeaders.com"
+msgstr "Kontrollera på SecurityHeaders.com"
 
 #: pro/loader.php:272
 #, php-format
 msgid "Last scan: %s ago"
-msgstr "Letzter Scan: vor %s"
+msgstr "Senaste skanning: %s sedan"
 
 #: pro/loader.php:275
 msgid "Run Scan"
-msgstr "Scan ausführen"
+msgstr "Kör skanning"
 
 #: pro/loader.php:279
 msgid "Download Report"
-msgstr "Bericht herunterladen"
+msgstr "Ladda ner rapport"
 
 #: pro/loader.php:325
 msgid "Grade based on 6 scored headers — aligned with SecurityHeaders.com"
 msgstr ""
-"Bewertung basierend auf 6 bewerteten Headern – in Übereinstimmung mit "
-"SecurityHeaders.com"
+"Betyg baserat på 6 bedömda rubriker – i enlighet med SecurityHeaders.com"
 
 #: pro/loader.php:329
 msgid "Forces HTTPS. Blocks eavesdropping."
-msgstr "Erzwingt HTTPS. Verhindert das Abhören."
+msgstr "Tvingar HTTPS. Förhindrar avlyssning."
 
 #: pro/loader.php:330
 msgid "Controls allowed resources. Blocks XSS."
-msgstr "Kontrolliert zulässige Ressourcen. Blockiert XSS."
+msgstr "Kontrollerar tillåtna resurser. Blockerar XSS."
 
 #: pro/loader.php:331
 msgid "Prevents MIME-sniffing attacks."
-msgstr "Verhindert MIME-Sniffing-Angriffe."
+msgstr "Förhindrar MIME-sniffing-attacker."
 
 #: pro/loader.php:332
 msgid "Blocks clickjacking via iframes."
-msgstr "Verhindert Clickjacking über Iframes."
+msgstr "Förhindrar clickjacking via iframes."
 
 #: pro/loader.php:333
 msgid "Controls referrer info. Protects privacy."
-msgstr "Steuert die Referrer-Informationen. Schützt die Privatsphäre."
+msgstr "Kontrollerar information om hänvisningskällor. Skyddar integriteten."
 
 #: pro/loader.php:334
 msgid "Controls camera, mic, location access."
-msgstr "Verwaltet den Zugriff auf Kamera, Mikrofon und Standortdaten."
+msgstr "Styr åtkomst till kamera, mikrofon och platsinformation."
 
 #: pro/loader.php:337
 msgid "Isolates from cross-origin pop-ups."
-msgstr "Schützt vor Pop-ups aus anderen Domänen."
+msgstr "Skyddar mot popup-fönster från andra domäner."
 
 #: pro/loader.php:338
 msgid "Controls cross-origin resource loading."
-msgstr "Steuert das Laden von Ressourcen aus anderen Domänen."
+msgstr "Styr inläsningen av resurser från andra domäner."
 
 #: pro/loader.php:339
 msgid "Controls who can load your resources."
-msgstr "Legt fest, wer Ihre Ressourcen laden darf."
+msgstr "Styr vem som kan ladda dina resurser."
 
 #: pro/loader.php:340
 msgid "Blocks Flash/PDF cross-domain data."
-msgstr ""
-"Blockiert domänenübergreifende Datenübertragung zwischen Flash und PDF."
+msgstr "Blockerar dataöverföring mellan domäner i Flash/PDF."
 
 #: pro/loader.php:349 pro/loader.php:368 pro/loader.php:873
 msgid "Active"
@@ -1158,41 +1126,40 @@ msgstr "Aktiv"
 
 #: pro/loader.php:360
 msgid "BONUS HEADERS"
-msgstr "BONUS-ÜBERSCHRIFTEN"
+msgstr "BONUSRUBRIKER"
 
 #: pro/loader.php:361
 msgid "Extra protection — not scored by SecurityHeaders.com"
-msgstr "Zusätzlicher Schutz – nicht von SecurityHeaders.com bewertet"
+msgstr "Extra skydd — har inte fått betyg av SecurityHeaders.com"
 
 #: pro/loader.php:368
 msgid "Not set"
-msgstr "Nicht eingestellt"
+msgstr "Inte satt"
 
 #: pro/loader.php:384
 msgid "Score Trend"
-msgstr "Punktestand-Entwicklung"
+msgstr "Poängutveckling"
 
 #: pro/loader.php:385
 msgid ""
 "Tracks your security score over time. Each dot represents a scan. Hover to "
 "see details. Drops indicate a header was removed or misconfigured."
 msgstr ""
-"Zeigt die Entwicklung Ihrer Sicherheitsbewertung im Zeitverlauf an. Jeder "
-"Punkt steht für einen Scan. Bewegen Sie den Mauszeiger darüber, um Details "
-"anzuzeigen. Tropfen weisen darauf hin, dass ein Header entfernt oder falsch "
-"konfiguriert wurde."
+"Visar din säkerhetspoäng över tid. Varje punkt motsvarar en genomsökning. "
+"Håll muspekaren över en punkt för att se detaljer. Nedåtpilarna visar att en "
+"rubrik har tagits bort eller är felaktigt konfigurerad."
 
 #: pro/loader.php:393
 msgid "Week"
-msgstr "Woche"
+msgstr "Vecka"
 
 #: pro/loader.php:393
 msgid "Month"
-msgstr "Monat"
+msgstr "Månad"
 
 #: pro/loader.php:393
 msgid "Year"
-msgstr "Jahr"
+msgstr "År"
 
 #: pro/loader.php:398
 msgid "A / A+"
@@ -1209,20 +1176,20 @@ msgstr "D / F"
 #: pro/loader.php:401
 #, php-format
 msgid "%d scans"
-msgstr "%d Scans"
+msgstr "%d skanningar"
 
 #: pro/loader.php:408
 #, php-format
 msgid "Scan History (%d)"
-msgstr "Scan-Verlauf (%d)"
+msgstr "Skanningshistorik (%d)"
 
 #: pro/loader.php:411
 msgid "Grade"
-msgstr "Note"
+msgstr "Betyg"
 
 #: pro/loader.php:412
 msgid "Score"
-msgstr "Wertung"
+msgstr "Poäng"
 
 #: pro/loader.php:413
 msgid "Date"
@@ -1230,20 +1197,20 @@ msgstr "Datum"
 
 #: pro/loader.php:414
 msgid "Issues"
-msgstr "Probleme"
+msgstr "Problem"
 
 #: pro/loader.php:575
 msgid ""
 "CSP configuration guide with recommended tools, best practices, and real-"
 "time violation analytics to monitor what browsers are blocking on your site."
 msgstr ""
-"CSP-Konfigurationsleitfaden mit empfohlenen Tools, Best Practices und "
-"Echtzeit-Analysen zu Verstößen, um zu überwachen, was Browser auf Ihrer "
-"Website blockieren."
+"Konfigurationsguide för CSP med rekommenderade verktyg, bästa praxis och "
+"analys av överträdelser i realtid för att övervaka vad webbläsare blockerar "
+"på din webbplats."
 
 #: pro/loader.php:580
 msgid "CSP Guide"
-msgstr "CSP-Leitfaden"
+msgstr "CSP-guide"
 
 #: pro/loader.php:583
 msgid "CSP Analytics"
@@ -1251,7 +1218,7 @@ msgstr "CSP Analytics"
 
 #: pro/loader.php:589
 msgid "Content Security Policy — The Right Way"
-msgstr "Content Security Policy – Der richtige Weg"
+msgstr "Innehållssäkerhetspolicy – på rätt sätt"
 
 #: pro/loader.php:591
 msgid ""
@@ -1261,17 +1228,16 @@ msgid ""
 "guarantee a complete CSP — the safest approach is: start with Report-Only, "
 "monitor real violations, then build your policy from real data."
 msgstr ""
-"CSP ist der wirksamste Schutz gegen XSS-Angriffe, doch jede Website ist "
-"anders. Page Builder, Plugins von Drittanbietern, Analysetools, Anzeigen und "
-"über JavaScript geladene Ressourcen müssen alle berücksichtigt werden. Kein "
-"automatisiertes Tool kann eine vollständige CSP garantieren – der sicherste "
-"Ansatz ist folgender: Beginnen Sie mit „Report-Only“, überwachen Sie "
-"tatsächliche Verstöße und erstellen Sie Ihre Richtlinie dann auf der "
-"Grundlage realer Daten."
+"CSP är det mest effektiva skyddet mot XSS-attacker, men varje webbplats är "
+"unik. Sidbyggare, plugins från tredje part, analysverktyg, annonser och "
+"resurser som laddas via JavaScript måste alla beaktas. Inget automatiserat "
+"verktyg kan garantera en fullständig CSP – det säkraste tillvägagångssättet "
+"är att börja med läget ”Report-Only”, övervaka faktiska överträdelser och "
+"sedan utforma din policy utifrån verkliga data."
 
 #: pro/loader.php:596
 msgid "Recommended Tools"
-msgstr "Empfohlene Tools"
+msgstr "Rekommenderade verktyg"
 
 #: pro/loader.php:599
 msgid "Csper.io"
@@ -1282,34 +1248,34 @@ msgid ""
 "Browser extension. Monitors real resources loaded in your browser. The most "
 "accurate way to build a CSP. Free Chrome/Firefox extension."
 msgstr ""
-"Browser-Erweiterung. Überwacht die tatsächlich in Ihrem Browser geladenen "
-"Ressourcen. Der genaueste Weg, eine CSP zu erstellen. Kostenlose Erweiterung "
-"für Chrome/Firefox."
+"Webbläsartillägg. Övervakar vilka resurser som faktiskt laddas i din "
+"webbläsare. Det mest exakta sättet att skapa en CSP. Gratis tillägg för "
+"Chrome och Firefox."
 
 #: pro/loader.php:604
 msgid "Google CSP Evaluator"
-msgstr "Google CSP-Evaluator"
+msgstr "Google CSP-utvärderare"
 
 #: pro/loader.php:606
 msgid ""
 "Paste your CSP to check for bypasses, unsafe directives, and missing "
 "protections. Free by Google."
 msgstr ""
-"Fügen Sie Ihren CSP ein, um auf Umgehungen, unsichere Anweisungen und "
-"fehlende Schutzmaßnahmen zu prüfen. Kostenlos von Google."
+"Klistra in din CSP för att kontrollera om det finns kringgångar, osäkra "
+"direktiv och saknade skyddsåtgärder. Gratis från Google."
 
 #: pro/loader.php:609
 msgid "Report URI"
-msgstr "URI des Berichts"
+msgstr "Rapportens URI"
 
 #: pro/loader.php:611
 msgid ""
 "Professional CSP violation monitoring with dashboard and alerts. Free tier "
 "available. Paste the URL in Settings → CSP Report URI."
 msgstr ""
-"Professionelle Überwachung von CSP-Verstößen mit Dashboard und "
-"Benachrichtigungen. Kostenlose Version verfügbar. Fügen Sie die URL unter "
-"„Einstellungen“ → „CSP-Berichts-URI“ ein."
+"Professionell övervakning av CSP-överträdelser med kontrollpanel och "
+"varningar. Gratisversion tillgänglig. Klistra in webbadressen under "
+"Inställningar → CSP-rapport-URI."
 
 #: pro/loader.php:614
 msgid "URIports"
@@ -1320,29 +1286,28 @@ msgid ""
 "Modern CSP/security reporting. 10,000 reports/month free. Excellent for high-"
 "traffic sites."
 msgstr ""
-"Moderne CSP-/Sicherheitsberichte. 10.000 Berichte pro Monat kostenlos. Ideal "
-"für Websites mit hohem Datenverkehr."
+"Modern rapportering av CSP och säkerhet. 10 000 rapporter per månad utan "
+"kostnad. Perfekt för webbplatser med hög trafik."
 
 #: pro/loader.php:623
 msgid "Safe Workflow (Step by Step)"
-msgstr "Sicherer Arbeitsablauf (Schritt für Schritt)"
+msgstr "Säker arbetsgång (steg för steg)"
 
 #: pro/loader.php:625
 msgid ""
 "Install the Csper.io browser extension (free) and browse your site. It "
 "records every resource loaded."
 msgstr ""
-"Installieren Sie die Browser-Erweiterung Csper.io (kostenlos) und besuchen "
-"Sie Ihre Website. Sie erfasst jede geladene Ressource."
+"Installera webbläsartillägget Csper.io (gratis) och surfa på din webbplats. "
+"Det registrerar alla resurser som laddas."
 
 #: pro/loader.php:626
 msgid "Export the generated CSP from Csper.io."
-msgstr "Exportiere den generierten CSP aus Csper.io."
+msgstr "Exportera den genererade CSP-filen från Csper.io."
 
 #: pro/loader.php:627
 msgid "Validate it on Google CSP Evaluator — fix any warnings."
-msgstr ""
-"Überprüfen Sie es mit dem Google CSP Evaluator – beheben Sie alle Warnungen."
+msgstr "Kontrollera det i Google CSP Evaluator – åtgärda eventuella varningar."
 
 #: pro/loader.php:628
 msgid ""
@@ -1350,73 +1315,73 @@ msgid ""
 "Policy-Report-Only\" first (enable in your server config or use a Report URI "
 "service)."
 msgstr ""
-"Fügen Sie die CSP zunächst unter „Einstellungen → Inhalt des CSP-Headers“ "
-"mit „Content-Security-Policy-Report-Only“ ein (aktivieren Sie dies in Ihrer "
-"Serverkonfiguration oder nutzen Sie einen Report-URI-Dienst)."
+"Klistra in CSP-koden i Inställningar → Innehåll i CSP-rubrik och ange "
+"”Content-Security-Policy-Report-Only” först (aktivera detta i din "
+"serverkonfiguration eller använd en tjänst för rapport-URI)."
 
 #: pro/loader.php:629
 msgid "Monitor CSP Analytics (tab above) for 7+ days — add missing domains."
 msgstr ""
-"Beobachten Sie CSP Analytics (Registerkarte oben) über einen Zeitraum von "
-"mindestens 7 Tagen – fügen Sie fehlende Domains hinzu."
+"Håll koll på CSP Analytics (fliken ovan) i minst 7 dagar – lägg till domäner "
+"som saknas."
 
 #: pro/loader.php:630
 msgid ""
 "When zero violations: switch to enforced mode in Settings → CSP Header "
 "Contents."
 msgstr ""
-"Wenn keine Verstöße vorliegen: Wechseln Sie in den erzwungenen Modus unter "
-"„Einstellungen“ → „Inhalt des CSP-Headers“."
+"Om inga överträdelser: växla till tvingande läge under Inställningar → "
+"Innehåll i CSP-rubrik."
 
 #: pro/loader.php:636
 msgid "Common CSP Directives for WordPress"
-msgstr "Gängige CSP-Richtlinien für WordPress"
+msgstr "Vanliga CSP-riktlinjer för WordPress"
 
 #: pro/loader.php:637
 msgid "Copy and adapt these for your site. Each line is a separate service."
 msgstr ""
-"Kopiere diese und passe sie an deine Website an. Jede Zeile steht für einen "
-"separaten Dienst."
+"Kopiera och anpassa dessa till din webbplats. Varje rad motsvarar en separat "
+"tjänst."
 
 #: pro/loader.php:639
 msgid "# Minimum safe CSP for WordPress"
-msgstr "# Mindestanforderungen an die Sicherheit von CSP für WordPress"
+msgstr "# Minsta säkra CSP för WordPress"
 
 #: pro/loader.php:653
 msgid "# Add for Google Fonts"
-msgstr "# Für Google Fonts hinzufügen"
+msgstr "# Lägg till för Google Fonts"
 
 #: pro/loader.php:657
 msgid "# Add for Google Analytics / GTM"
-msgstr "# Für Google Analytics / GTM hinzufügen"
+msgstr "# Lägg till för Google Analytics / GTM"
 
 #: pro/loader.php:662
 msgid "# Add for YouTube embeds"
-msgstr "# Für YouTube-Einbettungen hinzufügen"
+msgstr "# Lägg till för inbäddade YouTube-klipp"
 
 #: pro/loader.php:665
 msgid "# Add for Stripe (WooCommerce)"
-msgstr "# Für Stripe hinzufügen (WooCommerce)"
+msgstr "# Tillägg för Stripe (WooCommerce)"
 
 #: pro/loader.php:669
 msgid "# Add for Elementor"
-msgstr "# Für Elementor hinzufügen"
+msgstr "# Tillägg för Elementor"
 
 #: pro/loader.php:670
 msgid "// required for Elementor editor"
-msgstr "// erforderlich für den Elementor-Editor"
+msgstr "// krävs för Elementor-redigeraren"
 
 #: pro/loader.php:672
 msgid "# Add for Facebook Pixel"
-msgstr "# Für Facebook-Pixel hinzufügen"
+msgstr "# Lägg till för Facebook Pixel"
 
 #: pro/loader.php:680
 msgid "CSP FAQ"
-msgstr "CSP – Häufig gestellte Fragen"
+msgstr "Vanliga frågor om CSP"
 
 #: pro/loader.php:683 pro/loader.php:993
 msgid "What is CSP?"
-msgstr "Was ist CSP?"
+msgstr "Vad är CSP?"
 
 #: pro/loader.php:683
 msgid ""
@@ -1425,15 +1390,14 @@ msgid ""
 "your page. Anything not listed is blocked. It is the most effective "
 "protection against XSS (Cross-Site Scripting) attacks."
 msgstr ""
-"Die Content Security Policy ist ein HTTP-Header, der Browsern mitteilt, "
-"welche Ressourcen (Skripte, Stylesheets, Bilder, Schriftarten, Frames) auf "
-"Ihrer Seite geladen werden dürfen. Alles, was nicht aufgeführt ist, wird "
-"blockiert. Sie ist der wirksamste Schutz gegen XSS-Angriffe (Cross-Site "
-"Scripting)."
+"Content Security Policy är en HTTP-rubrik som anger för webbläsare vilka "
+"resurser (skript, stilmallar, bilder, teckensnitt, ramar) som får laddas på "
+"din sida. Allt som inte anges blockeras. Det är det mest effektiva skyddet "
+"mot XSS-attacker (Cross-Site Scripting)."
 
 #: pro/loader.php:684
 msgid "Will CSP break my site?"
-msgstr "Wird CSP meine Website lahmlegen?"
+msgstr "Kommer CSP att förstöra min webbplats?"
 
 #: pro/loader.php:684
 msgid ""
@@ -1441,14 +1405,14 @@ msgid ""
 "always start with Report-Only mode: it logs violations without blocking "
 "anything. Monitor for 7+ days, fix the policy, then enforce."
 msgstr ""
-"Nur wenn Sie eine zu restriktive Richtlinie durchsetzen. Deshalb sollten Sie "
-"immer mit dem Modus „Nur melden“ beginnen: Dieser protokolliert Verstöße, "
-"ohne etwas zu blockieren. Beobachten Sie die Situation mindestens 7 Tage "
-"lang, passen Sie die Richtlinie an und setzen Sie sie dann durch."
+"Endast om du tillämpar en policy som är för restriktiv. Därför bör du alltid "
+"börja med läget ”Endast rapportering”: det loggar överträdelser utan att "
+"blockera något. Övervaka i minst sju dagar, justera policyn och börja sedan "
+"tillämpa den."
 
 #: pro/loader.php:685
 msgid "Why does WordPress need unsafe-inline?"
-msgstr "Warum benötigt WordPress „unsafe-inline“?"
+msgstr "Varför behöver WordPress funktionen unsafe-inline?"
 
 #: pro/loader.php:685
 msgid ""
@@ -1457,14 +1421,14 @@ msgid ""
 "The ideal solution is nonce-based CSP, but most WordPress plugins do not "
 "support it yet."
 msgstr ""
-"Der WordPress-Kern, die meisten Themes und die meisten Plugins fügen Inline-"
-"Skripte und -Styles direkt in den HTML-Code ein. Ohne „unsafe-inline“ würden "
-"diese blockiert werden. Die ideale Lösung ist ein Nonce-basiertes CSP, doch "
-"die meisten WordPress-Plugins unterstützen dies noch nicht."
+"WordPress-kärnan, de flesta teman och de flesta plugins genererar inline-"
+"skript och -stilar direkt i HTML-koden. Utan inställningen unsafe-inline "
+"skulle dessa blockeras. Den idealiska lösningen är en nonce-baserad CSP, men "
+"de flesta WordPress-plugins stöder inte detta ännu."
 
 #: pro/loader.php:686
 msgid "Why does Elementor need unsafe-eval?"
-msgstr "Warum benötigt Elementor „unsafe-eval“?"
+msgstr "Varför behöver Elementor funktionen unsafe-eval?"
 
 #: pro/loader.php:686
 msgid ""
@@ -1472,14 +1436,14 @@ msgid ""
 "and widgets dynamically. Without unsafe-eval, the editor and some frontend "
 "features break. This is a known limitation of these builders."
 msgstr ""
-"Elementor und einige andere Page-Builder verwenden die JavaScript-Funktion "
-"`eval()`, um Vorlagen und Widgets dynamisch zu verarbeiten. Ohne die "
-"Funktion `unsafe-eval` funktionieren der Editor und einige Frontend-"
-"Funktionen nicht mehr. Dies ist eine bekannte Einschränkung dieser Builder."
+"Elementor och vissa sidbyggare använder JavaScript-funktionen eval() för att "
+"bearbeta mallar och widgets dynamiskt. Utan unsafe-eval slutar redigeraren "
+"och vissa frontend-funktioner att fungera. Detta är en känd begränsning hos "
+"dessa byggare."
 
 #: pro/loader.php:687 pro/loader.php:997
 msgid "What is Report-Only mode?"
-msgstr "Was ist der „Nur-Bericht“-Modus?"
+msgstr "Vad är läget ”Endast rapport”?"
 
 #: pro/loader.php:687
 msgid ""
@@ -1488,14 +1452,14 @@ msgid ""
 "does NOT block anything — it only sends violation reports. Perfect for "
 "testing before going live."
 msgstr ""
-"Ihr Server sendet die CSP mit dem Header „Content-Security-Policy-Report-"
-"Only“ anstelle von „Content-Security-Policy“. Der Browser überprüft die "
-"Richtlinie, blockiert jedoch nichts – er sendet lediglich Berichte über "
-"Verstöße. Ideal für Tests vor der Inbetriebnahme."
+"Din server skickar CSP-rapporter med rubriken Content-Security-Policy-Report-"
+"Only istället för Content-Security-Policy. Webbläsaren kontrollerar policyn "
+"men blockerar INTE något – den skickar endast rapporter om överträdelser. "
+"Perfekt för testning innan webbplatsen går live."
 
 #: pro/loader.php:688
 msgid "How do I find which domains to add?"
-msgstr "Wie finde ich heraus, welche Domains ich hinzufügen soll?"
+msgstr "Hur vet jag vilka domäner jag ska lägga till?"
 
 #: pro/loader.php:688
 msgid ""
@@ -1503,15 +1467,14 @@ msgid ""
 "2) Check the CSP Analytics tab for violations reported by real visitors. 3) "
 "Open Chrome DevTools → Console tab and look for CSP violation errors."
 msgstr ""
-"Drei Möglichkeiten: 1) Verwenden Sie beim Surfen auf Ihrer Website die "
-"Browser-Erweiterung „Csper.io“. 2) Überprüfen Sie auf der Registerkarte „CSP "
-"Analytics“, ob von echten Besuchern Verstöße gemeldet wurden. 3) Öffnen Sie "
-"die Chrome-Entwicklertools → Registerkarte „Konsole“ und suchen Sie nach "
-"Fehlern aufgrund von CSP-Verstößen."
+"Tre sätt: 1) Använd webbläsartillägget Csper.io när du besöker din "
+"webbplats. 2) Kontrollera fliken CSP Analytics för att se vilka "
+"överträdelser som rapporterats av riktiga besökare. 3) Öppna Chrome DevTools "
+"→ fliken Konsol och leta efter felmeddelanden om CSP-överträdelser."
 
 #: pro/loader.php:689
 msgid "What is a CSP Report URI?"
-msgstr "Was ist eine CSP-Bericht-URI?"
+msgstr "Vad är en CSP-rapport-URI?"
 
 #: pro/loader.php:689
 msgid ""
@@ -1519,15 +1482,14 @@ msgid ""
 "services (Report URI, URIports, Sentry) or the built-in Shield CSP Analytics "
 "endpoint. Configure it in Settings → CSP Report URI."
 msgstr ""
-"Eine URL, an die der Browser JSON-Verstoßberichte sendet. Sie können externe "
-"Dienste (Report URI, URIports, Sentry) oder den integrierten Shield CSP "
-"Analytics-Endpunkt verwenden. Konfigurieren Sie dies unter „Einstellungen“ → "
-"„CSP-Berichts-URI“."
+"En URL dit webbläsaren skickar rapporter om JSON-överträdelser. Du kan "
+"använda externa tjänster (Report URI, URIports, Sentry) eller den inbyggda "
+"Shield CSP Analytics-ändpunkten. Konfigurera den under Inställningar → CSP "
+"Report URI."
 
 #: pro/loader.php:690
 msgid "Can I use Shield CSP Analytics and an external service together?"
-msgstr ""
-"Kann ich Shield CSP Analytics zusammen mit einem externen Dienst nutzen?"
+msgstr "Kan jag använda Shield CSP Analytics tillsammans med en extern tjänst?"
 
 #: pro/loader.php:690
 msgid ""
@@ -1535,50 +1497,50 @@ msgid ""
 "only have one report-uri per policy. For basic monitoring, Shield Analytics "
 "is enough. For high-traffic professional sites, use URIports or Report URI."
 msgstr ""
-"Der Browser sendet Berichte an die im CSP-Header konfigurierte URL. Pro "
-"Richtlinie ist nur eine Report-URI zulässig. Für eine grundlegende "
-"Überwachung reicht Shield Analytics aus. Für professionelle Websites mit "
-"hohem Datenverkehr sollten Sie URIports oder Report URI verwenden."
+"Webbläsaren skickar rapporter till den URL som har konfigurerats i CSP-"
+"rubriken. Det går bara att ange en rapport-URI per policy. För grundläggande "
+"övervakning räcker det med Shield Analytics. För professionella webbplatser "
+"med hög trafik bör du använda URIports eller Report URI."
 
 #: pro/loader.php:704
 msgid ""
 "Monitors Content Security Policy violations reported by browsers. Shows "
 "which resources are being blocked and where."
 msgstr ""
-"Überwacht von Browsern gemeldete Verstöße gegen die Content Security Policy. "
-"Zeigt an, welche Ressourcen wo blockiert werden."
+"Övervakar överträdelser av Content Security Policy som rapporteras av "
+"webbläsare. Visar vilka resurser som blockeras och var."
 
 #: pro/loader.php:722
 msgid "Total violations"
-msgstr "Gesamtzahl der Verstöße"
+msgstr "Totalt antal överträdelser"
 
 #: pro/loader.php:723
 msgid "Last 24h"
-msgstr "In den letzten 24 Stunden"
+msgstr "De senaste 24 timmarna"
 
 #: pro/loader.php:724
 msgid "Last 7 days"
-msgstr "Letzte 7 Tage"
+msgstr "Senaste 7 dagarna"
 
 #: pro/loader.php:728
 msgid "Top blocked domains"
-msgstr "Die meistgesperrten Domains"
+msgstr "De mest blockerade domänerna"
 
 #: pro/loader.php:740
 msgid "Top violated directives"
-msgstr "Die am häufigsten verletzten Richtlinien"
+msgstr "De vanligaste överträdelserna av direktiven"
 
 #: pro/loader.php:752
 msgid "No CSP violations recorded yet."
-msgstr "Bislang wurden keine Verstöße gegen die CSP verzeichnet."
+msgstr "Inga överträdelser av CSP har registrerats ännu."
 
 #: pro/loader.php:753
 msgid ""
 "Configure a Report URI in Settings → CSP Report URI, or follow the CSP Guide "
 "to get started."
 msgstr ""
-"Konfigurieren Sie eine Berichts-URI unter „Einstellungen“ → „CSP-Berichts-"
-"URI“ oder folgen Sie den Anweisungen im CSP-Leitfaden, um loszulegen."
+"Konfigurera en rapport-URI under Inställningar → CSP-rapport-URI, eller följ "
+"CSP-guiden för att komma igång."
 
 #: pro/loader.php:777
 msgid ""
@@ -1586,99 +1548,98 @@ msgid ""
 "or any custom endpoint. Get alerted when your security score drops, a header "
 "is removed, or critical issues are found."
 msgstr ""
-"E-Mail-Benachrichtigungen und Webhook-Benachrichtigungen an Slack, Discord, "
-"Microsoft Teams oder einen beliebigen benutzerdefinierten Endpunkt. Lassen "
-"Sie sich benachrichtigen, wenn Ihre Sicherheitsbewertung sinkt, ein Header "
-"entfernt wird oder kritische Probleme festgestellt werden."
+"E-postaviseringar och webhook-meddelanden till Slack, Discord, Microsoft "
+"Teams eller valfri anpassad slutpunkt. Få ett meddelande när ditt "
+"säkerhetsbetyg sjunker, en rubrik tas bort eller allvarliga problem upptäcks."
 
 #: pro/loader.php:780
 msgid "Get alerted when something changes. Configure once, then forget."
 msgstr ""
-"Lassen Sie sich benachrichtigen, wenn sich etwas ändert. Einmal einrichten, "
-"dann vergessen."
+"Få ett meddelande när något ändras. Ställ in en gång, sedan behöver du inte "
+"tänka mer på det."
 
 #: pro/loader.php:783
 msgid "Email Alerts"
-msgstr "E-Mail-Benachrichtigungen"
+msgstr "E-postnotiser"
 
 #: pro/loader.php:786
 msgid "Receives alerts on score drops, header changes, critical issues."
 msgstr ""
-"Erhält Benachrichtigungen bei Punktverlusten, Änderungen der Überschrift und "
-"kritischen Problemen."
+"Får aviseringar vid poängsänkningar, ändringar i rubriker och allvarliga "
+"problem."
 
 #: pro/loader.php:794
 msgid "Custom Webhook (JSON)"
-msgstr "Benutzerdefinierter Webhook (JSON)"
+msgstr "Anpassad webhook (JSON)"
 
 #: pro/loader.php:800
 msgid "Setup guide"
-msgstr "Einrichtungsleitfaden für den Einstieg"
+msgstr "Installationsguide"
 
 #: pro/loader.php:810
 msgid "Notify when:"
-msgstr "Benachrichtigen, wenn:"
+msgstr "Meddela när:"
 
 #: pro/loader.php:812
 msgid "Every scan (including clean)"
-msgstr "Jeder Scan (einschließlich des Reinigungs-Scans)"
+msgstr "Varje skanning (inklusive ren skanning)"
 
 #: pro/loader.php:821
 msgid "Save Notification Settings"
-msgstr "Benachrichtigungseinstellungen speichern"
+msgstr "Spara aviseringsinställningar"
 
 #: pro/loader.php:823
 msgid "Saved!"
-msgstr "Gespeichert!"
+msgstr "Sparat!"
 
 #: pro/loader.php:833
 msgid "Export / Import Settings"
-msgstr "Export- / Importeinstellungen"
+msgstr "Export-/importinställningar"
 
 #: pro/loader.php:835
 msgid ""
 "Export your security header configuration and import it on other sites. "
 "Ideal for agencies and freelancers managing multiple WordPress installations."
 msgstr ""
-"Exportieren Sie Ihre Sicherheits-Header-Konfiguration und importieren Sie "
-"sie auf andere Websites. Ideal für Agenturen und Freiberufler, die mehrere "
-"WordPress-Installationen verwalten."
+"Exportera din konfiguration av säkerhetsrubriker och importera den till "
+"andra webbplatser. Perfekt för byråer och frilansare som hanterar flera "
+"WordPress-installationer."
 
 #: pro/loader.php:841
 msgid "Export"
-msgstr "Export"
+msgstr "Exportera"
 
 #: pro/loader.php:842
 msgid ""
 "Download a JSON file with all your security header settings. Does not "
 "include license key."
 msgstr ""
-"Laden Sie eine JSON-Datei mit all Ihren Einstellungen für die "
-"Sicherheitsheader herunter. Der Lizenzschlüssel ist nicht enthalten."
+"Ladda ner en JSON-fil med alla dina inställningar för säkerhetsrubriker. "
+"Licensnyckeln ingår inte."
 
 #: pro/loader.php:843
 msgid "Export Settings"
-msgstr "Export Einstellungen"
+msgstr "Exportera Inställningar"
 
 #: pro/loader.php:847
 msgid "Import"
-msgstr "Importieren"
+msgstr "Importera"
 
 #: pro/loader.php:848
 msgid ""
 "Upload a previously exported JSON file. This will overwrite your current "
 "settings."
 msgstr ""
-"Laden Sie eine zuvor exportierte JSON-Datei hoch. Dadurch werden Ihre "
-"aktuellen Einstellungen überschrieben."
+"Ladda upp en tidigare exporterad JSON-fil. Detta kommer att skriva över dina "
+"nuvarande inställningar."
 
 #: pro/loader.php:850
 msgid "Import Settings"
-msgstr "Einstellungen importieren"
+msgstr "Importinställningar"
 
 #: pro/loader.php:857
 msgid "Exported settings include:"
-msgstr "Zu den exportierten Einstellungen gehören:"
+msgstr "De exporterade inställningarna omfattar:"
 
 #: pro/loader.php:859
 msgid ""
@@ -1686,30 +1647,30 @@ msgid ""
 "URI, Permissions Policy, X-Frame-Options, all header enable/disable toggles, "
 "and webhook/notification URLs. License key and scan history are NOT exported."
 msgstr ""
-"HSTS (max-age, includeSubDomains, preload), Inhalt des CSP-Headers, CSP-"
-"Berichts-URI, Berechtigungsrichtlinie, X-Frame-Options, alle Schaltflächen "
-"zum Aktivieren/Deaktivieren von Headern sowie Webhook-/Benachrichtigungs-"
-"URLs. Der Lizenzschlüssel und der Scan-Verlauf werden NICHT exportiert."
+"HSTS (max-age, includeSubDomains, preload), innehållet i CSP-rubriken, CSP-"
+"rapportens URI, behörighetspolicy, X-Frame-Options, alla alternativ för att "
+"aktivera/inaktivera rubriker samt webhook- och meddelande-URL:er. "
+"Licensnyckeln och skanningshistoriken exporteras INTE."
 
 #: pro/loader.php:872
 msgid "License key"
-msgstr "Lizenzschlüssel"
+msgstr "Licensnyckel"
 
 #: pro/loader.php:874
 msgid "Expires"
-msgstr "Läuft ab"
+msgstr "Förfaller"
 
 #: pro/loader.php:876
 msgid "Deactivate License"
-msgstr "Lizenz deaktivieren"
+msgstr "Inaktivera licens"
 
 #: pro/loader.php:878
 msgid ""
 "Enter your license key to unlock Shield features. The free version will "
 "always remain fully functional."
 msgstr ""
-"Geben Sie Ihren Lizenzschlüssel ein, um die Funktionen von Shield "
-"freizuschalten. Die kostenlose Version bleibt weiterhin voll funktionsfähig."
+"Ange din licensnyckel för att låsa upp funktionerna i Shield. "
+"Gratisversionen kommer alltid att fungera fullt ut."
 
 #: pro/loader.php:880
 msgid "HSTP-XXXX-XXXX-XXXX-XXXX"
@@ -1717,16 +1678,16 @@ msgstr "HSTP-XXXX-XXXX-XXXX-XXXX"
 
 #: pro/loader.php:881
 msgid "Activate"
-msgstr "Aktivieren"
+msgstr "Aktivera"
 
 #: pro/loader.php:884
 #, php-format
 msgid "Don't have a license? %1$sGet Shield%2$s"
-msgstr "Sie haben noch keine Lizenz? %1$sShield herunterladen%2$s"
+msgstr "Har du inget körkort? %1$sSkaffa Shield%2$s"
 
 #: pro/loader.php:894
 msgid "Free forever. Shield for those who want more."
-msgstr "Für immer kostenlos. Shield für alle, die mehr wollen."
+msgstr "Gratis för alltid. Shield för dig som vill ha mer."
 
 #: pro/loader.php:896
 msgid ""
@@ -1736,44 +1697,44 @@ msgid ""
 "automated scanning, real-time alerts) built for professionals who want "
 "deeper monitoring."
 msgstr ""
-"Alle Funktionen, die dieses Plugin seit seiner Einführung bietet, bleiben "
-"weiterhin völlig kostenlos – ohne Einschränkungen, ohne Bezahlschranken und "
-"ohne „Lite“-Einschränkungen. Daran wird sich nie etwas ändern. Shield ist "
-"ein eigenständiges Paket brandneuer, fortschrittlicher Tools (Security "
-"Advisor, automatisierte Scans, Echtzeit-Benachrichtigungen), das speziell "
-"für Profis entwickelt wurde, die eine umfassendere Überwachung wünschen."
+"Alla funktioner som detta tillägg har erbjudit ända från början är "
+"fortfarande helt gratis – inga begränsningar, inga betalväggar, inga ”lite”-"
+"begränsningar. Det kommer aldrig att förändras. Shield är en separat "
+"uppsättning helt nya avancerade verktyg (Security Advisor, automatisk "
+"skanning, realtidsvarningar) som är utvecklade för proffs som vill ha mer "
+"ingående övervakning."
 
 #: pro/loader.php:897
 msgid ""
 "Revenue from Shield goes directly into maintaining and improving the free "
 "plugin for everyone."
 msgstr ""
-"Die Einnahmen aus Shield fließen direkt in die Pflege und Verbesserung des "
-"kostenlosen Plugins für alle."
+"Intäkterna från Shield går direkt till underhåll och utveckling av det "
+"kostnadsfria tillägget för alla."
 
 #: pro/loader.php:903
 msgid "Free"
-msgstr "Kostenlos"
+msgstr "Gratis"
 
 #: pro/loader.php:903
 msgid "Forever"
-msgstr "Für immer"
+msgstr "För alltid"
 
 #: pro/loader.php:905
 msgid "Free forever"
-msgstr "Für immer kostenlos"
+msgstr "Gratis for alltid"
 
 #: pro/loader.php:907
 msgid "10+ security headers"
-msgstr "10+ Sicherheits-Header"
+msgstr "10+ säkerhetsrubriker"
 
 #: pro/loader.php:908
 msgid "HSTS Preload"
-msgstr "HSTS vorladen"
+msgstr "Förladdning av HSTS"
 
 #: pro/loader.php:909
 msgid "CSP / Permissions Policy"
-msgstr "CSP / Berechtigungsrichtlinie"
+msgstr "CSP / Behörighetspolicy"
 
 #: pro/loader.php:910
 msgid "X-Frame / X-Content-Type"
@@ -1781,108 +1742,109 @@ msgstr "X-Frame / X-Content-Type"
 
 #: pro/loader.php:911
 msgid "Duplicate header resolver"
-msgstr "Lösung für doppelte Kopfzeilen"
+msgstr "Lösare för dubbla rubriker"
 
 #: pro/loader.php:912
 msgid ".htaccess support"
-msgstr "Unterstützung für .htaccess"
+msgstr "Stöd för .htaccess"
 
 #: pro/loader.php:913
 msgid "Community support"
-msgstr "Community-Support"
+msgstr "Stöd från samhället"
 
 #: pro/loader.php:919
 msgid "1 site"
-msgstr "1 Website"
+msgstr "1 sajt"
 
 #: pro/loader.php:921
 msgid "per year"
-msgstr "pro Jahr"
+msgstr "per år"
 
 #: pro/loader.php:921 pro/loader.php:939
 msgid "month"
-msgstr "Monat"
+msgstr "månad"
 
 #: pro/loader.php:923
 msgid "All Free features, plus:"
-msgstr "Alle kostenlosen Funktionen sowie:"
+msgstr "Alla gratis funktioner, plus:"
 
 #: pro/loader.php:924
 msgid "Security Dashboard & Advisor"
-msgstr "Sicherheits-Dashboard & Berater"
+msgstr "Säkerhetspanel och rådgivare"
 
 #: pro/loader.php:925
 msgid "Score Trend chart (week/month/year)"
-msgstr "Entwicklungsdiagramm (Woche/Monat/Jahr)"
+msgstr "Diagram över poängutvecklingen (vecka/månad/år)"
 
 #: pro/loader.php:926
 msgid "PDF Security Report (before/after)"
-msgstr "PDF-Sicherheitsbericht (vorher/nachher)"
+msgstr "Säkerhetsrapport för PDF (före/efter)"
 
 #: pro/loader.php:927
 msgid "CSP Guide & Analytics"
-msgstr "CSP-Leitfaden & Analysen"
+msgstr "CSP-guide och analysverktyg"
 
 #: pro/loader.php:928
 msgid "Email & webhook alerts"
-msgstr "Benachrichtigungen per E-Mail und Webhook"
+msgstr "Varningar via e-post och webhook"
 
 #: pro/loader.php:929
 msgid "Export / Import settings"
-msgstr "Einstellungen exportieren / importieren"
+msgstr "Exportera/importera inställningar"
 
 #: pro/loader.php:930
 msgid "Weekly automated scans"
-msgstr "Wöchentliche automatische Scans"
+msgstr "Automatiska skanningar varje vecka"
 
 #: pro/loader.php:932
 msgid "Get Shield"
-msgstr "Holen Sie sich Shield"
+msgstr "Skaffa Shield"
 
 #: pro/loader.php:936
 msgid "BEST VALUE"
-msgstr "OPTIMAL"
+msgstr "BÄSTA PRIS"
 
 #: pro/loader.php:939
 msgid "per year, unlimited sites"
-msgstr "pro Jahr, unbegrenzte Anzahl von Standorten"
+msgstr "per år, obegränsat antal webbplatser"
 
 #: pro/loader.php:941
 msgid "Everything in Shield"
-msgstr "Alles in Shield"
+msgstr "Allt i Shield"
 
 #: pro/loader.php:942
 msgid "Unlimited site activations"
-msgstr "Unbegrenzte Anzahl von Standortaktivierungen"
+msgstr "Obegränsat antal webbplatsaktiveringar"
 
 #: pro/loader.php:943
 msgid "Ideal for agencies"
-msgstr "Ideal für Agenturen"
+msgstr "Perfekt för byråer"
 
 #: pro/loader.php:944
 msgid "Ideal for freelancers"
-msgstr "Ideal für Freiberufler"
+msgstr "Perfekt för frilansare"
 
 #: pro/loader.php:945
 msgid "Priority support"
-msgstr "Premium Support"
+msgstr "Prioriterad support"
 
 #: pro/loader.php:946
 msgid "$29/site? With 4+ sites you save"
-msgstr "29 $ pro Standort? Ab 4 Standorten sparen Sie"
+msgstr ""
+"29 dollar per webbplats? Vid fyra eller fler webbplatser sparar du pengar"
 
 #: pro/loader.php:948
 msgid "Get Unlimited"
-msgstr "Unbegrenzt nutzen"
+msgstr "Få obegränsad tillgång"
 
 #: pro/loader.php:953
 #, php-format
 msgid "by %1$sAndrea Ferro%2$s"
-msgstr "von %1$sAndrea Ferro%2$s"
+msgstr "av %1$sAndrea Ferro%2$s"
 
 #: pro/loader.php:955
 msgid "Review"
-msgstr "Bewertung"
+msgstr "Recension"
 
 #: pro/loader.php:956
 msgid "Support"
@@ -1890,42 +1852,40 @@ msgstr "Support"
 
 #: pro/loader.php:965
 msgid "Frequently Asked Questions"
-msgstr "Häufig gestellte Fragen"
+msgstr "Vanliga frågor"
 
 #: pro/loader.php:966
 msgid ""
 "Everything you need to know about security headers, this plugin, and Pro."
-msgstr ""
-"Alles, was Sie über Sicherheits-Header, dieses Plugin und die Pro-Version "
-"wissen müssen."
+msgstr "Allt du behöver veta om säkerhetsrubriker, det här tillägget och Pro."
 
 #: pro/loader.php:968
 msgid "Search FAQ..."
-msgstr "FAQ durchsuchen..."
+msgstr "Sök i vanliga frågor..."
 
 #: pro/loader.php:969
 msgid "No results found."
-msgstr "Keine Ergebnisse gefunden."
+msgstr "Inga resultat hittades."
 
 #: pro/loader.php:972
 msgid "All"
-msgstr "Alle"
+msgstr "Alla"
 
 #: pro/loader.php:972
 msgid "General"
-msgstr "Allgemein"
+msgstr "Allmänt"
 
 #: pro/loader.php:972
 msgid "Headers"
-msgstr "Kopfzeilen"
+msgstr "Sidhuvud"
 
 #: pro/loader.php:972
 msgid "Troubleshooting"
-msgstr "Fehlerbehebung"
+msgstr "Felsökning"
 
 #: pro/loader.php:981
 msgid "What does this plugin do?"
-msgstr "Was macht dieses Plugin?"
+msgstr "Vad gör det här tillägget?"
 
 #: pro/loader.php:981
 msgid ""
@@ -1934,14 +1894,14 @@ msgid ""
 "protect visitors from attacks like XSS, clickjacking, and protocol "
 "downgrades."
 msgstr ""
-"Fügt Ihrer WordPress-Website HTTP-Sicherheitsheader hinzu: HSTS, CSP, "
-"Permissions Policy, X-Frame-Options und mehr. Diese Header weisen Browser "
-"an, wie sie Besucher vor Angriffen wie XSS, Clickjacking und Protokoll-"
-"Downgrades schützen können."
+"Lägger till HTTP-säkerhetsrubriker på din WordPress-webbplats: HSTS, CSP, "
+"Permissions Policy, X-Frame-Options och fler. Dessa rubriker anger för "
+"webbläsarna hur de ska skydda besökarna mot attacker som XSS, clickjacking "
+"och nedgradering av protokoll."
 
 #: pro/loader.php:982
 msgid "Will this plugin slow down my site?"
-msgstr "Wird dieses Plugin meine Website verlangsamen?"
+msgstr "Kommer det här tillägget att göra min webbplats långsammare?"
 
 #: pro/loader.php:982
 msgid ""
@@ -1949,13 +1909,13 @@ msgid ""
 "native hooks and Apache .htaccess. Zero database queries at page load for "
 "visitors."
 msgstr ""
-"Nein. Die Header erhöhen die Größe jeder Antwort um weniger als 1 KB. Das "
-"Plugin nutzt native WordPress-Hooks und die Apache-.htaccess-Datei. Beim "
-"Laden der Seite fallen für Besucher keinerlei Datenbankabfragen an."
+"Nej. Rubrikerna lägger till mindre än 1 kB till varje svar. Pluginet "
+"använder WordPress inbyggda hooks och Apache .htaccess. Inga databasfrågor "
+"vid sidladdning för besökarna."
 
 #: pro/loader.php:983
 msgid "Is the free version really free forever?"
-msgstr "Ist die kostenlose Version wirklich für immer kostenlos?"
+msgstr "Är gratisversionen verkligen gratis för alltid?"
 
 #: pro/loader.php:983
 msgid ""
@@ -1965,18 +1925,16 @@ msgid ""
 "(Security Advisor, CSP generator, monitoring) built on top. Revenue from "
 "Shield funds free updates for all users."
 msgstr ""
-"Ja. Jeder Sicherheits-Header, jede Konfigurationsoption und jede "
-"Schutzfunktion, die dieses Plugin derzeit bietet, bleibt vollständig "
-"kostenlos. Keine Funktion wird jemals hinter eine Bezahlschranke verschoben. "
-"Shield ist ein eigenständiger Satz brandneuer Tools (Security Advisor, CSP-"
-"Generator, Überwachung), der darauf aufbaut. Die Einnahmen aus Shield "
-"finanzieren kostenlose Updates für alle Nutzer."
+"Ja. Varje säkerhetsrubrik, varje konfigurationsalternativ och varje "
+"skyddsfunktion som detta tillägg erbjuder idag kommer att förbli helt "
+"gratis. Inga funktioner kommer någonsin att göras tillgängliga endast mot "
+"betalning. Shield är en separat uppsättning helt nya verktyg (Security "
+"Advisor, CSP-generator, övervakning) som byggts på ovan. Intäkterna från "
+"Shield finansierar kostnadsfria uppdateringar för alla användare."
 
 #: pro/loader.php:984
 msgid "Why did you introduce Shield if the plugin was always free?"
-msgstr ""
-"Warum habt ihr Shield eingeführt, wenn das Plugin doch schon immer kostenlos "
-"war?"
+msgstr "Varför lanserade ni Shield om tillägget alltid har varit gratis?"
 
 #: pro/loader.php:984
 msgid ""
@@ -1988,19 +1946,18 @@ msgid ""
 "alerts) pay a fair price, and that revenue funds continued free development "
 "for everyone. The free plugin gets better because Shield exists, not worse."
 msgstr ""
-"Die Pflege eines Plugins, das von über 100.000 Websites genutzt wird, ist "
-"eine große Verantwortung. Sicherheitsupdates, WordPress-Kompatibilität, "
-"Supportanfragen und neue Browserstandards erfordern ständige Arbeit. "
-"Jahrelang deckten „Buy me a coffee“-Spenden nur einen Bruchteil dieses "
-"Aufwands ab. Shield ermöglicht es Profis, die erweiterte Funktionen "
-"(Sicherheitsanalyse, automatisierte Scans, Echtzeit-Benachrichtigungen) "
-"benötigen, einen fairen Preis zu zahlen, und diese Einnahmen finanzieren die "
-"weitere kostenlose Entwicklung für alle. Das kostenlose Plugin wird durch "
-"Shield besser, nicht schlechter."
+"Att underhålla ett plugin som används av över 100 000 webbplatser är ett "
+"stort ansvar. Säkerhetsuppdateringar, kompatibilitet med WordPress, "
+"supportförfrågningar och nya webbläsarstandarder kräver alla kontinuerligt "
+"arbete. I åratal har donationer via ”Buy me a coffee” täckt en bråkdel av "
+"det arbetet. Shield låter proffs som behöver avancerade funktioner "
+"(säkerhetsanalys, automatiserad skanning, realtidsvarningar) betala ett "
+"rimligt pris, och de intäkterna finansierar fortsatt gratis utveckling för "
+"alla. Det kostnadsfria pluginet blir bättre tack vare Shield, inte sämre."
 
 #: pro/loader.php:985
 msgid "Does it work with Nginx / LiteSpeed / IIS?"
-msgstr "Funktioniert das mit Nginx / LiteSpeed / IIS?"
+msgstr "Fungerar det med Nginx / LiteSpeed / IIS?"
 
 #: pro/loader.php:985
 msgid ""
@@ -2008,13 +1965,13 @@ msgid ""
 "Apache-only but the PHP method handles Nginx, LiteSpeed, and IIS "
 "automatically."
 msgstr ""
-"Ja. Der PHP-Filter „wp_headers“ funktioniert auf jedem Server. Die .htaccess-"
-"Methode ist nur für Apache geeignet, während die PHP-Methode Nginx, "
-"LiteSpeed und IIS automatisch unterstützt."
+"Ja. PHP-filtret wp_headers fungerar på alla servrar. Metoden med .htaccess "
+"fungerar endast med Apache, men PHP-metoden hanterar automatiskt Nginx, "
+"LiteSpeed och IIS."
 
 #: pro/loader.php:986
 msgid "Is it compatible with caching plugins?"
-msgstr "Ist es mit Caching-Plugins kompatibel?"
+msgstr "Fungerar det tillsammans med caching-plugins?"
 
 #: pro/loader.php:986
 msgid ""
@@ -2022,38 +1979,38 @@ msgid ""
 "For Varnish or Cloudflare full-page cache, the .htaccess method sets headers "
 "at server level."
 msgstr ""
-"Ja. Funktioniert mit WP Super Cache, W3 Total Cache, LiteSpeed Cache und WP "
-"Rocket. Für den Vollseiten-Cache von Varnish oder Cloudflare werden die "
-"Header bei der .htaccess-Methode auf Serverebene gesetzt."
+"Ja. Fungerar med WP Super Cache, W3 Total Cache, LiteSpeed Cache och WP "
+"Rocket. För helsidecache med Varnish eller Cloudflare ställer .htaccess-"
+"metoden in rubriker på servernivå."
 
 #: pro/loader.php:987
 msgid "Will it conflict with other security plugins?"
-msgstr "Wird es zu Konflikten mit anderen Sicherheits-Plugins kommen?"
+msgstr "Kommer det att orsaka konflikter med andra säkerhetsplugins?"
 
 #: pro/loader.php:987
 msgid ""
 "Rarely. If another plugin sets the same headers, use the \"Resolve duplicate "
 "headers\" checkboxes in Settings to let one source handle each header."
 msgstr ""
-"Selten. Wenn ein anderes Plugin dieselben Header setzt, aktivieren Sie in "
-"den Einstellungen die Kontrollkästchen „Doppelte Header auflösen“, damit "
-"jeder Header von nur einer Quelle verwaltet wird."
+"Sällan. Om ett annat plugin ställer in samma rubriker, använd kryssrutorna "
+"”Lösa dubbla rubriker” under Inställningar så att varje rubrik hanteras av "
+"en enda källa."
 
 #: pro/loader.php:988
 msgid "Which WordPress versions are supported?"
-msgstr "Welche WordPress-Versionen werden unterstützt?"
+msgstr "Vilka WordPress-versioner stöds?"
 
 #: pro/loader.php:988
 msgid ""
 "WordPress 4.7 and above. Uses only WordPress core APIs with no external "
 "dependencies."
 msgstr ""
-"WordPress 4.7 und höher. Nutzt ausschließlich WordPress-Kern-APIs ohne "
-"externe Abhängigkeiten."
+"WordPress 4.7 och senare. Använder endast WordPress-kärn-API:er utan externa "
+"beroenden."
 
 #: pro/loader.php:989
 msgid "What is HSTS and why do I need it?"
-msgstr "Was ist HSTS und wozu brauche ich es?"
+msgstr "Vad är HSTS och varför behöver jag det?"
 
 #: pro/loader.php:989
 msgid ""
@@ -2061,26 +2018,25 @@ msgid ""
 "intercept the first HTTP request before redirect. With HSTS, browsers never "
 "try plain HTTP."
 msgstr ""
-"HSTS zwingt Browser dazu, stets HTTPS zu verwenden. Ohne HSTS können "
-"Angreifer die erste HTTP-Anfrage vor der Weiterleitung abfangen. Mit HSTS "
-"versuchen Browser niemals, eine Verbindung über einfaches HTTP herzustellen."
+"HSTS tvingar webbläsare att alltid använda HTTPS. Utan HSTS kan angripare "
+"avlyssna den första HTTP-förfrågan innan omdirigeringen sker. Med HSTS "
+"försöker webbläsare aldrig använda vanlig HTTP."
 
 #: pro/loader.php:990
 msgid "What max-age should I use?"
-msgstr "Welchen „max-age“-Wert sollte ich verwenden?"
+msgstr "Vilket max-age-värde ska jag använda?"
 
 #: pro/loader.php:990
 msgid ""
 "Minimum for preload: 31536000 (1 year). Recommended: 63072000 (2 years). "
 "Start with 86400 (1 day) to test, then increase."
 msgstr ""
-"Mindestwert für die Vorabladung: 31536000 (1 Jahr). Empfohlen: 63072000 (2 "
-"Jahre). Beginnen Sie mit 86400 (1 Tag) zum Testen und erhöhen Sie den Wert "
-"anschließend."
+"Minimivärde för förladdning: 31536000 (1 år). Rekommenderat värde: 63072000 "
+"(2 år). Börja med 86400 (1 dag) för att testa, och öka sedan värdet."
 
 #: pro/loader.php:991
 msgid "Should I enable HSTS Preload?"
-msgstr "Sollte ich HSTS Preload aktivieren?"
+msgstr "Bör jag aktivera HSTS Preload?"
 
 #: pro/loader.php:991
 msgid ""
@@ -2088,14 +2044,13 @@ msgid ""
 "Preload is hardcoded in browsers and difficult to undo. Removal takes "
 "months. Test thoroughly first."
 msgstr ""
-"Nur wenn Ihre gesamte Domain (einschließlich aller Subdomains) über HTTPS "
-"läuft. Das Preloading ist in den Browsern fest programmiert und lässt sich "
-"nur schwer rückgängig machen. Die Entfernung dauert Monate. Testen Sie dies "
-"zunächst gründlich."
+"Endast om hela din domän (inklusive alla underdomäner) fungerar via HTTPS. "
+"Förladdningen är fast inbyggd i webbläsarna och svår att ångra. Det tar "
+"flera månader att ta bort den. Testa noggrant först."
 
 #: pro/loader.php:992
 msgid "HSTS broke my site. How to fix?"
-msgstr "HSTS hat meine Website lahmgelegt. Wie kann ich das beheben?"
+msgstr "HSTS har förstört min webbplats. Hur åtgärdar jag det?"
 
 #: pro/loader.php:992
 msgid ""
@@ -2103,10 +2058,10 @@ msgid ""
 "net-internals/#hsts, search domain, click Delete. If on preload list, submit "
 "removal at hstspreload.org."
 msgstr ""
-"Deaktivieren Sie HSTS in den Plugin-Einstellungen. Leeren Sie den HSTS-Cache "
-"des Browsers: Chrome chrome://net-internals/#hsts, suchen Sie die Domain und "
-"klicken Sie auf „Löschen“. Falls die Domain auf der Preload-Liste steht, "
-"beantragen Sie die Entfernung unter hstspreload.org."
+"Inaktivera HSTS i plugin-inställningarna. Rensa webbläsarens HSTS-cache: "
+"Chrome chrome://net-internals/#hsts, sök efter domänen och klicka på Ta "
+"bort. Om den finns med på förladdningslistan, begär borttagning på "
+"hstspreload.org."
 
 #: pro/loader.php:993
 msgid ""
@@ -2114,14 +2069,13 @@ msgid ""
 "your pages and from which domains. Everything not allowed is blocked. The "
 "strongest protection against XSS attacks."
 msgstr ""
-"Die Content Security Policy legt für Browser genau fest, welche Ressourcen "
-"auf Ihren Seiten geladen werden dürfen und von welchen Domains sie stammen "
-"dürfen. Alles, was nicht zugelassen ist, wird blockiert. Der stärkste Schutz "
-"gegen XSS-Angriffe."
+"Content Security Policy anger för webbläsarna exakt vilka resurser som får "
+"laddas på dina sidor och från vilka domäner. Allt som inte är tillåtet "
+"blockeras. Det starkaste skyddet mot XSS-attacker."
 
 #: pro/loader.php:994
 msgid "Why is CSP hard to configure?"
-msgstr "Warum ist CSP so schwer zu konfigurieren?"
+msgstr "Varför är CSP svårt att konfigurera?"
 
 #: pro/loader.php:994
 msgid ""
@@ -2130,15 +2084,14 @@ msgid ""
 "something breaks. Follow the CSP Guide in Shield for tools and step-by-step "
 "instructions."
 msgstr ""
-"WordPress-Seiten laden Ressourcen aus vielen Quellen: Theme, Plugins, Google "
-"Fonts, Analysetools, CDNs. In der CSP-Richtlinie müssen alle legitimen "
-"Quellen aufgeführt werden. Wenn eine fehlt, kommt es zu Fehlern. Befolgen "
-"Sie den CSP-Leitfaden in Shield, um Tools und eine Schritt-für-Schritt-"
-"Anleitung zu erhalten."
+"WordPress-webbplatser hämtar resurser från många olika källor: teman, "
+"plugins, Google Fonts, analysverktyg och CDN-tjänster. CSP-policyn måste "
+"innehålla alla legitima källor. Om en källa utelämnas uppstår problem. Följ "
+"CSP-guiden i Shield för verktyg och steg-för-steg-instruktioner."
 
 #: pro/loader.php:995
 msgid "What does unsafe-inline mean?"
-msgstr "Was bedeutet „unsafe-inline“?"
+msgstr "Vad betyder ”unsafe-inline”?"
 
 #: pro/loader.php:995
 msgid ""
@@ -2146,14 +2099,14 @@ msgid ""
 "CSP with unsafe-inline is still much better than no CSP. For maximum "
 "security, use nonce-based CSP."
 msgstr ""
-"Erlaubt Inline-Skripte und -Stile in HTML. Die meisten WordPress-Themes "
-"benötigen dies. Eine CSP mit der Einstellung „unsafe-inline“ ist immer noch "
-"deutlich besser als gar keine CSP. Für maximale Sicherheit sollten Sie eine "
-"Nonce-basierte CSP verwenden."
+"Tillåter inline-skript och -stilar i HTML. De flesta WordPress-teman kräver "
+"detta. Att använda CSP med inställningen ”unsafe-inline” är ändå betydligt "
+"bättre än att inte använda CSP alls. För maximal säkerhet bör du använda "
+"nonce-baserad CSP."
 
 #: pro/loader.php:996
 msgid "CSP is blocking something. How to fix?"
-msgstr "CSP blockiert etwas. Wie kann man das beheben?"
+msgstr "CSP blockerar något. Hur åtgärdar man det?"
 
 #: pro/loader.php:996
 msgid ""
@@ -2161,10 +2114,9 @@ msgid ""
 "exactly which resource was blocked. Add that domain to the correct directive "
 "in your CSP."
 msgstr ""
-"Öffnen Sie die Entwicklertools Ihres Browsers (F12) und überprüfen Sie die "
-"Konsole auf CSP-Verstöße. Dort wird genau angezeigt, welche Ressource "
-"blockiert wurde. Fügen Sie diese Domain zur entsprechenden Anweisung in "
-"Ihrer CSP hinzu."
+"Öppna webbläsarens utvecklingsverktyg (F12) och kontrollera konsolen för CSP-"
+"överträdelser. Där visas exakt vilken resurs som har blockerats. Lägg till "
+"den domänen i rätt direktiv i din CSP."
 
 #: pro/loader.php:997
 msgid ""
@@ -2172,13 +2124,13 @@ msgid ""
 "nothing — only reports violations. Perfect for testing a new CSP safely "
 "before enforcing."
 msgstr ""
-"Sendet CSP als „Report-Only“-Header. Der Browser wertet die Richtlinie aus, "
-"blockiert jedoch nichts – er meldet lediglich Verstöße. Ideal, um eine neue "
-"CSP vor der Durchsetzung sicher zu testen."
+"Skickar CSP som en ”Report-Only”-rubrik. Webbläsaren utvärderar policyn men "
+"blockerar ingenting – den rapporterar endast överträdelser. Perfekt för att "
+"testa en ny CSP på ett säkert sätt innan den tillämpas."
 
 #: pro/loader.php:998
 msgid "What is X-Frame-Options?"
-msgstr "Was ist X-Frame-Options?"
+msgstr "Vad är X-Frame-Options?"
 
 #: pro/loader.php:998
 msgid ""
@@ -2186,14 +2138,13 @@ msgid ""
 "your domain. Prevents clickjacking attacks. ALLOW-FROM is deprecated — use "
 "CSP frame-ancestors instead."
 msgstr ""
-"Steuert die Einbettung von Iframes. „DENY“ blockiert jegliches Framing, "
-"„SAMEORIGIN“ erlaubt nur Ihre eigene Domain. Verhindert Clickjacking-"
-"Angriffe. „ALLOW-FROM“ ist veraltet – verwenden Sie stattdessen die CSP-"
-"Eigenschaft „frame-ancestors“."
+"Styr inbäddning av iframes. DENY blockerar all inbäddning, SAMEORIGIN "
+"tillåter endast din domän. Förhindrar clickjacking-attacker. ALLOW-FROM är "
+"föråldrat – använd istället CSP-attributet frame-ancestors."
 
 #: pro/loader.php:999
 msgid "What is Permissions-Policy?"
-msgstr "Was ist die Berechtigungsrichtlinie?"
+msgstr "Vad är Permissions-Policy?"
 
 #: pro/loader.php:999
 msgid ""
@@ -2201,14 +2152,13 @@ msgid ""
 "Setting them to () disables access, preventing malicious scripts from using "
 "sensitive features."
 msgstr ""
-"Steuert Browser-APIs: Kamera, Mikrofon, Standortbestimmung, "
-"Zahlungsfunktionen, USB. Durch die Einstellung auf () wird der Zugriff "
-"deaktiviert, wodurch verhindert wird, dass bösartige Skripte sensible "
-"Funktionen nutzen können."
+"Styr webbläsarens API:er: kamera, mikrofon, geolokalisering, betalning, USB. "
+"Om du ställer in dem på () inaktiveras åtkomsten, vilket förhindrar att "
+"skadliga skript använder känsliga funktioner."
 
 #: pro/loader.php:1000
 msgid "What is X-Content-Type-Options?"
-msgstr "Was ist „X-Content-Type-Options“?"
+msgstr "Vad är X-Content-Type-Options?"
 
 #: pro/loader.php:1000
 msgid ""
@@ -2216,13 +2166,13 @@ msgid ""
 "confusion attacks where text files get executed as scripts. No reason not to "
 "enable it."
 msgstr ""
-"Der Wert „nosniff“ verhindert, dass Browser Dateitypen erraten. Er "
-"verhindert MIME-Confusion-Angriffe, bei denen Textdateien als Skripte "
-"ausgeführt werden. Es gibt keinen Grund, ihn nicht zu aktivieren."
+"Värdet nosniff förhindrar webbläsare från att gissa filtyper. Det förhindrar "
+"MIME-förvirringsattacker där textfiler körs som skript. Det finns ingen "
+"anledning att inte aktivera det."
 
 #: pro/loader.php:1001
 msgid "What is Referrer-Policy?"
-msgstr "Was ist Referrer-Policy?"
+msgstr "Vad är Referrer-Policy?"
 
 #: pro/loader.php:1001
 msgid ""
@@ -2230,13 +2180,13 @@ msgid ""
 "origin-when-cross-origin. Protects privacy by not leaking URL paths to "
 "external sites."
 msgstr ""
-"Legt fest, welche URL-Informationen gesendet werden, wenn Nutzer auf Links "
-"klicken. Empfohlen: strict-origin-when-cross-origin. Schützt die "
-"Privatsphäre, indem keine URL-Pfade zu externen Websites preisgegeben werden."
+"Styr vilken URL-information som skickas när användare klickar på länkar. "
+"Rekommenderat: strict-origin-when-cross-origin. Skyddar integriteten genom "
+"att inte avslöja URL-vägar till externa webbplatser."
 
 #: pro/loader.php:1002
 msgid "What are COOP, COEP, CORP?"
-msgstr "Was sind COOP, COEP und CORP?"
+msgstr "Vad är COOP, COEP och CORP?"
 
 #: pro/loader.php:1002
 msgid ""
@@ -2244,14 +2194,13 @@ msgid ""
 "explicit cross-origin permission, CORP controls who loads your resources. "
 "Together they block Spectre-type attacks."
 msgstr ""
-"Header zur Isolierung zwischen verschiedenen Ursprüngen. COOP isoliert Pop-"
-"ups, COEP erfordert eine ausdrückliche Genehmigung für den Zugriff über "
-"verschiedene Ursprünge hinweg, und CORP steuert, wer Ihre Ressourcen lädt. "
-"Zusammen blockieren sie Angriffe vom Typ Spectre."
+"Huvuden för isolering mellan domäner. COOP isolerar från popup-fönster, COEP "
+"kräver uttryckligt tillstånd för åtkomst mellan domäner, och CORP styr vem "
+"som laddar dina resurser. Tillsammans blockerar de attacker av Spectre-typ."
 
 #: pro/loader.php:1003
 msgid "Duplicate header warnings — how to fix?"
-msgstr "Warnungen wegen doppelter Kopfzeilen – wie behebt man das?"
+msgstr "Varningar om dubbla rubriker – hur åtgärdar man det?"
 
 #: pro/loader.php:1003
 msgid ""
@@ -2259,15 +2208,13 @@ msgid ""
 "duplicate headers\" checkboxes in Settings. Verify with SecurityHeaders.com "
 "or curl -I."
 msgstr ""
-"Dies tritt auf, wenn sowohl der Server als auch das Plugin denselben Header "
-"setzen. Aktivieren Sie dazu in den Einstellungen die Kontrollkästchen "
-"„Doppelte Header auflösen“. Überprüfen Sie dies mit SecurityHeaders.com oder "
-"dem Befehl `curl -I`."
+"Detta inträffar när både servern och plugin-programmet anger samma rubrik. "
+"Markera kryssrutorna ”Lösa dubbla rubriker” under Inställningar. Kontrollera "
+"med SecurityHeaders.com eller curl -I."
 
 #: pro/loader.php:1004
 msgid "Site broke after changing settings"
-msgstr ""
-"Die Website funktioniert nach der Änderung der Einstellungen nicht mehr"
+msgstr "Webbplatsen slutade fungera efter att inställningarna ändrats"
 
 #: pro/loader.php:1004
 msgid ""
@@ -2275,14 +2222,13 @@ msgid ""
 "cause. You can also deactivate the plugin as emergency fix — all headers "
 "removed, no data lost."
 msgstr ""
-"Deaktivieren Sie die Header nacheinander über die Kontrollkästchen in den "
-"Einstellungen. Meistens liegt die Ursache bei CSP. Als Notfallmaßnahme "
-"können Sie auch das Plugin deaktivieren – alle Header werden entfernt, es "
-"gehen keine Daten verloren."
+"Inaktivera rubrikerna en i taget med hjälp av kryssrutorna under "
+"Inställningar. Oftast beror det på CSP. Du kan också inaktivera tillägget "
+"som en snabblösning – alla rubriker tas bort utan att data går förlorade."
 
 #: pro/loader.php:1005
 msgid "Headers not showing up"
-msgstr "Die Kopfzeilen werden nicht angezeigt"
+msgstr "Rubriker visas inte"
 
 #: pro/loader.php:1005
 msgid ""
@@ -2290,14 +2236,14 @@ msgid ""
 "stripping headers? Check CDN settings. (4) Full-page cache? Clear it. (5) "
 "Managed hosting overriding?"
 msgstr ""
-"Überprüfen Sie: (1) Ist das Plugin aktiviert? (2) Überprüfen Sie dies auf "
-"SecurityHeaders.com. (3) Entfernt das CDN die Header? Überprüfen Sie die CDN-"
-"Einstellungen. (4) Gibt es einen Vollseiten-Cache? Leeren Sie ihn. (5) Gibt "
-"es Überschreibungen durch das Managed Hosting?"
+"Kontrollera: (1) Är tillägget aktiverat? (2) Kontrollera på "
+"SecurityHeaders.com. (3) Tar CDN bort rubriker? Kontrollera CDN-"
+"inställningarna. (4) Hela sidan i cache? Rensa den. (5) Överskriver den "
+"hanterade webbhotellet inställningarna?"
 
 #: pro/loader.php:1006
 msgid "How to check my headers?"
-msgstr "Wie überprüfe ich meine Kopfzeilen?"
+msgstr "Hur kontrollerar jag mina rubriker?"
 
 #: pro/loader.php:1006
 msgid ""
@@ -2305,13 +2251,13 @@ msgid ""
 "Network > first request > Response Headers), or command line: curl -I "
 "https://yoursite.com"
 msgstr ""
-"Drei Möglichkeiten: SecurityHeaders.com (URL einfügen), Browser-"
-"Entwicklertools (F12 > Netzwerk > erste Anfrage > Antwort-Header) oder über "
-"die Befehlszeile: curl -I https://yoursite.com"
+"Tre sätt: SecurityHeaders.com (klistra in webbadressen), webbläsarens "
+"utvecklingsverktyg (F12 > Nätverk > första begäran > Svarhuvuden) eller "
+"kommandoraden: curl -I https://yoursite.com"
 
 #: pro/loader.php:1007
 msgid "SecurityHeaders.com shows bad grade"
-msgstr "SecurityHeaders.com zeigt eine schlechte Bewertung an"
+msgstr "SecurityHeaders.com visar ett dåligt betyg"
 
 #: pro/loader.php:1007
 msgid ""
@@ -2319,14 +2265,14 @@ msgid ""
 "headers in Settings. The Shield Security Advisor shows exactly what to fix "
 "for each grade improvement."
 msgstr ""
-"Dies bedeutet in der Regel, dass CSP nicht konfiguriert ist oder nur die "
-"Standardeinstellungen verwendet werden. Konfigurieren Sie alle Header in den "
-"Einstellungen. Der Shield Security Advisor zeigt genau an, was für jede "
-"Bewertungsverbesserung behoben werden muss."
+"Det betyder oftast att CSP inte är konfigurerat eller att endast "
+"standardinställningarna används. Konfigurera alla rubriker under "
+"Inställningar. Shield Security Advisor visar exakt vad som behöver åtgärdas "
+"för att höja betyget."
 
 #: pro/loader.php:1008
 msgid "WooCommerce / page builder stopped working"
-msgstr "WooCommerce / Der Page Builder funktioniert nicht mehr"
+msgstr "WooCommerce / sidbyggaren fungerar inte längre"
 
 #: pro/loader.php:1008
 msgid ""
@@ -2334,14 +2280,14 @@ msgid ""
 "(js.stripe.com), PayPal (www.paypal.com), Google Maps, YouTube. Check the "
 "CSP Guide in Shield for common WordPress directives and recommended tools."
 msgstr ""
-"Die CSP blockiert benötigte Ressourcen. Überprüfen Sie die DevTools-Konsole. "
-"Häufige Beispiele: Stripe (js.stripe.com), PayPal (www.paypal.com), Google "
-"Maps, YouTube. Informieren Sie sich im CSP-Leitfaden in Shield über gängige "
-"WordPress-Anweisungen und empfohlene Tools."
+"CSP blockerar nödvändiga resurser. Kontrollera konsolen i "
+"utvecklingsverktygen. Vanliga exempel: Stripe (js.stripe.com), PayPal "
+"(www.paypal.com), Google Maps, YouTube. Se CSP-guiden i Shield för vanliga "
+"WordPress-direktiv och rekommenderade verktyg."
 
 #: pro/loader.php:1009
 msgid "wp-admin or REST API issues"
-msgstr "Probleme mit wp-admin oder der REST-API"
+msgstr "Problem med wp-admin eller REST API"
 
 #: pro/loader.php:1009
 msgid ""
@@ -2349,14 +2295,13 @@ msgid ""
 "scripts. Set X-Frame to SAMEORIGIN, ensure CSP has unsafe-inline for script-"
 "src and style-src."
 msgstr ""
-"Wahrscheinlich liegt ein „X-Frame-Options DENY“ vor (der Administrator "
-"verwendet Iframes) oder CSP blockiert Inline-Skripte. Setzen Sie „X-Frame“ "
-"auf „SAMEORIGIN“ und stellen Sie sicher, dass CSP für „script-src“ und "
-"„style-src“ die Option „unsafe-inline“ enthält."
+"Troligtvis X-Frame-Options DENY (administratören använder iframes) eller att "
+"CSP blockerar inline-skript. Ställ in X-Frame-Options till SAMEORIGIN och se "
+"till att CSP har inställningen unsafe-inline för script-src och style-src."
 
 #: pro/loader.php:1010
 msgid "What does Security Advisor do?"
-msgstr "Was macht der Security Advisor?"
+msgstr "Vad gör Security Advisor?"
 
 #: pro/loader.php:1010
 msgid ""
@@ -2364,14 +2309,14 @@ msgid ""
 "language. Runs 100% locally — no external data, no API costs, no privacy "
 "concerns. Shows what to fix, why, how, and the score impact."
 msgstr ""
-"Analysiert Ihre Konfiguration und erstellt individuelle Empfehlungen in "
-"verständlicher Sprache. Läuft zu 100 % lokal – keine externen Daten, keine "
-"API-Kosten, keine Datenschutzbedenken. Zeigt auf, was zu beheben ist, warum, "
-"wie und wie sich dies auf die Bewertung auswirkt."
+"Analyserar din konfiguration och ger skräddarsydda rekommendationer på ett "
+"lättförståeligt språk. Fungerar helt automatiskt – inga externa data, inga "
+"API-kostnader, inga integritetsproblem. Visar vad som behöver åtgärdas, "
+"varför, hur och hur det påverkar poängen."
 
 #: pro/loader.php:1011
 msgid "How do I build a CSP with Shield?"
-msgstr "Wie erstelle ich ein CSP mit Shield?"
+msgstr "Hur bygger jag en CSP med Shield?"
 
 #: pro/loader.php:1011
 msgid ""
@@ -2381,16 +2326,16 @@ msgid ""
 "Follow the safe workflow: generate with Csper.io, validate, test in Report-"
 "Only, monitor, then enforce."
 msgstr ""
-"Shield bietet einen CSP-Leitfaden mit empfohlenen Tools (Csper.io-"
-"Browsererweiterung, Google CSP Evaluator), gebrauchsfertigen Code-Schnipseln "
-"für WordPress sowie CSP Analytics, das reale Daten zu Verstößen von Ihren "
-"Besuchern erfasst. Befolgen Sie den sicheren Arbeitsablauf: Generieren Sie "
-"mit Csper.io, validieren Sie, testen Sie im „Report-Only“-Modus, überwachen "
-"Sie und setzen Sie die Regeln anschließend durch."
+"Shield tillhandahåller en CSP-guide med rekommenderade verktyg "
+"(webbläsartillägget Csper.io, Google CSP Evaluator), färdiga kodsnuttar för "
+"WordPress samt CSP Analytics som samlar in faktiska uppgifter om "
+"överträdelser från dina besökare. Följ den säkra arbetsrutinen: skapa med "
+"Csper.io, validera, testa i läget ”Endast rapport”, övervaka och tillämpa "
+"sedan."
 
 #: pro/loader.php:1012
 msgid "What happens when Shield license expires?"
-msgstr "Was passiert, wenn die Shield-Lizenz abläuft?"
+msgstr "Vad händer när Shield-licensen löper ut?"
 
 #: pro/loader.php:1012
 msgid ""
@@ -2398,14 +2343,14 @@ msgid ""
 "Shield features (dashboard, advisor, alerts, analytics). Your CSP stays "
 "active. Nothing breaks."
 msgstr ""
-"Die Website bleibt geschützt. Wechselt zurück zur kostenlosen Version. Alle "
-"Header funktionieren weiterhin. Sie verlieren die Shield-Funktionen "
-"(Dashboard, Advisor, Benachrichtigungen, Analysen). Ihr CSP bleibt aktiv. Es "
-"kommt zu keinen Funktionsstörungen."
+"Webbplatsen förblir skyddad. Återgår till gratiskontot. Alla rubriker "
+"fortsätter att fungera. Du förlorar Shield-funktionerna (instrumentpanel, "
+"rådgivare, varningar, analyser). Din CSP förblir aktiv. Ingenting slutar "
+"fungera."
 
 #: pro/loader.php:1013
 msgid "Multiple sites?"
-msgstr "Mehrere Standorte?"
+msgstr "Flera webbplatser?"
 
 #: pro/loader.php:1013
 msgid ""
@@ -2413,13 +2358,13 @@ msgid ""
 "unlimited sites with the same license key. Perfect for agencies and "
 "freelancers."
 msgstr ""
-"Shield (29 $/Jahr) gilt für 1 Website. Shield Unlimited (99 $/Jahr) gilt für "
-"eine unbegrenzte Anzahl von Websites mit demselben Lizenzschlüssel. Ideal "
-"für Agenturen und Freiberufler."
+"Shield (29 $/år) gäller för 1 webbplats. Shield Unlimited (99 $/år) gäller "
+"för ett obegränsat antal webbplatser med samma licensnyckel. Perfekt för "
+"byråer och frilansare."
 
 #: pro/loader.php:1014
 msgid "How do webhook notifications work?"
-msgstr "Wie funktionieren Webhook-Benachrichtigungen?"
+msgstr "Hur fungerar webhook-aviseringar?"
 
 #: pro/loader.php:1014
 msgid ""
@@ -2427,16 +2372,14 @@ msgid ""
 "when score drops, headers change, or critical issues found. Each has a Test "
 "button. Custom webhook sends full scan data for automation."
 msgstr ""
-"Senden Sie die Scan-Ergebnisse an Slack, Discord, Teams oder eine "
-"benutzerdefinierte URL (JSON). Der Vorgang wird ausgelöst, wenn die "
-"Punktzahl sinkt, sich die Header ändern oder kritische Probleme festgestellt "
-"werden. Jede Option verfügt über eine Schaltfläche „Testen“. Ein "
-"benutzerdefinierter Webhook sendet die vollständigen Scandaten zur "
-"Automatisierung."
+"Skicka skanningsresultat till Slack, Discord, Teams eller en anpassad URL "
+"(JSON). Aktiveras när poängen sjunker, rubrikerna ändras eller allvarliga "
+"problem upptäcks. Varje alternativ har en testknapp. Den anpassade webhooken "
+"skickar fullständiga skanningsdata för automatisering."
 
 #: pro/loader.php:1015
 msgid "How does Export/Import work?"
-msgstr "Wie funktioniert der Export/Import?"
+msgstr "Hur fungerar export/import?"
 
 #: pro/loader.php:1015
 msgid ""
@@ -2445,15 +2388,15 @@ msgid ""
 "another site. License key is never exported. Ideal for agencies deploying "
 "the same security configuration across multiple client sites."
 msgstr ""
-"Beim Exportieren wird eine JSON-Datei mit allen Header-Einstellungen (HSTS, "
-"CSP, Berechtigungsrichtlinie, Schaltflächen, Webhook-URLs) heruntergeladen. "
-"Beim Importieren wird die Datei auf eine andere Website hochgeladen. Der "
-"Lizenzschlüssel wird niemals exportiert. Ideal für Agenturen, die dieselbe "
-"Sicherheitskonfiguration auf mehreren Kundenwebsites bereitstellen."
+"Med funktionen ”Exportera” laddas en JSON-fil ned som innehåller alla "
+"rubrikinställningar (HSTS, CSP, behörighetspolicy, växlingsalternativ, "
+"webhook-URL:er). Med funktionen ”Importera” laddas filen upp till en annan "
+"webbplats. Licensnyckeln exporteras aldrig. Perfekt för byråer som "
+"implementerar samma säkerhetskonfiguration på flera kundwebbplatser."
 
 #: pro/loader.php:1016
 msgid "How is the security score calculated?"
-msgstr "Wie wird die Sicherheitsbewertung berechnet?"
+msgstr "Hur beräknas säkerhetsbetyget?"
 
 #: pro/loader.php:1016
 msgid ""
@@ -2465,17 +2408,17 @@ msgid ""
 "separately. This ensures our grade matches what you see on "
 "SecurityHeaders.com."
 msgstr ""
-"Die Note basiert auf den 6 von SecurityHeaders.com bewerteten Headern: CSP, "
-"HSTS, X-Content-Type-Options, X-Frame-Options, Referrer-Policy und "
-"Permissions-Policy. Alle 6 vorhanden ohne Warnungen = A+. Alle 6 mit CSP-"
-"Warnung = A. 1 fehlt = B, 2 fehlen = C, 3–4 fehlen = D, 5+ fehlen = F. Vier "
-"zusätzliche Bonus-Header (COOP, COEP, CORP, X-Permitted) werden separat "
-"angezeigt. Dadurch wird sichergestellt, dass unsere Bewertung mit der auf "
-"SecurityHeaders.com übereinstimmt."
+"Betyget baseras på de 6 rubriker som poängsätts av SecurityHeaders.com: CSP, "
+"HSTS, X-Content-Type-Options, X-Frame-Options, Referrer-Policy och "
+"Permissions-Policy. Alla 6 finns utan varningar = A+. Alla 6 med CSP-varning "
+"= A. Saknar 1 = B, saknar 2 = C, saknar 3–4 = D, saknar 5+ = F. Fyra "
+"ytterligare bonusrubriker (COOP, COEP, CORP, X-Permitted) visas separat. "
+"Detta säkerställer att vårt betyg stämmer överens med det du ser på "
+"SecurityHeaders.com."
 
 #: pro/loader.php:1017
 msgid "When do email alerts trigger?"
-msgstr "Wann werden E-Mail-Benachrichtigungen ausgelöst?"
+msgstr "När utlöses e-postaviseringar?"
 
 #: pro/loader.php:1017
 msgid ""
@@ -2483,15 +2426,15 @@ msgid ""
 "compared to previous scan, a header was removed that was previously present, "
 "or critical security issues. No email is sent when everything is fine."
 msgstr ""
-"Es wird eine E-Mail versendet, wenn bei einem wöchentlichen oder manuellen "
-"Scan Folgendes festgestellt wird: eine Verschlechterung der Bewertung im "
-"Vergleich zum vorherigen Scan, das Fehlen einer zuvor vorhandenen Kopfzeile "
-"oder kritische Sicherheitsprobleme. Wenn alles in Ordnung ist, wird keine E-"
-"Mail versendet."
+"Ett e-postmeddelande skickas när en veckovis eller manuell genomsökning "
+"upptäcker: att poängen har sjunkit jämfört med föregående genomsökning, att "
+"en rubrik som tidigare fanns har tagits bort, eller att det föreligger "
+"allvarliga säkerhetsproblem. Inget e-postmeddelande skickas om allt är som "
+"det ska."
 
 #: pro/loader.php:1018
 msgid "Can I change the scan frequency?"
-msgstr "Kann ich die Scan-Frequenz ändern?"
+msgstr "Kan jag ändra skanningsfrekvensen?"
 
 #: pro/loader.php:1018
 msgid ""
@@ -2499,14 +2442,14 @@ msgid ""
 "anytime from the Dashboard. The scan checks your own site headers via HTTP "
 "request — zero external API calls."
 msgstr ""
-"Automatische Scans werden wöchentlich über den WordPress-Cron-Job "
-"ausgeführt. Du kannst jederzeit einen manuellen Scan über das Dashboard "
-"starten. Der Scan überprüft die Header deiner eigenen Website mittels HTTP-"
-"Anfragen – ganz ohne externe API-Aufrufe."
+"Automatiska genomsökningar körs varje vecka via WordPress Cron. Du kan när "
+"som helst köra en manuell genomsökning från instrumentpanelen. "
+"Genomsökningen kontrollerar din webbplats rubriker via HTTP-förfrågningar – "
+"inga externa API-anrop."
 
 #: pro/loader.php:1019
 msgid "Does Shield send data to external servers?"
-msgstr "Sendet Shield Daten an externe Server?"
+msgstr "Skickar Shield data till externa servrar?"
 
 #: pro/loader.php:1019
 msgid ""
@@ -2514,14 +2457,14 @@ msgid ""
 "scans, analysis, and recommendations run 100% locally on your server. No "
 "header data, no site data, no visitor data ever leaves your WordPress."
 msgstr ""
-"Mit Lemon Squeezy wird lediglich der Lizenzschlüssel überprüft (einmal alle "
-"24 Stunden). Alle Scans, Analysen und Empfehlungen werden zu 100 % auf Ihrem "
-"Server ausgeführt. Es verlassen niemals Header-Daten, Website-Daten oder "
-"Besucherdaten Ihr WordPress."
+"Endast licensnyckeln valideras av Lemon Squeezy (en gång per dygn). Alla "
+"genomsökningar, analyser och rekommendationer utförs helt och hållet på din "
+"server. Varken rubrikdata, webbplatsdata eller besökardata lämnar någonsin "
+"din WordPress-installation."
 
 #: pro/loader.php:1020
 msgid "Does Shield work with Cloudflare?"
-msgstr "Funktioniert Shield mit Cloudflare?"
+msgstr "Fungerar Shield tillsammans med Cloudflare?"
 
 #: pro/loader.php:1020
 msgid ""
@@ -2529,14 +2472,14 @@ msgid ""
 "headers in Cloudflare dashboard, you may get duplicates — use the Resolve "
 "duplicate headers option in Settings to fix this."
 msgstr ""
-"Ja. Cloudflare leitet die von WordPress gesetzten Header weiter. Wenn Sie "
-"zusätzlich Header im Cloudflare-Dashboard festlegen, kann es zu doppelten "
-"Einträgen kommen – nutzen Sie dazu die Option „Doppelte Header auflösen“ in "
-"den Einstellungen, um dies zu beheben."
+"Ja. Cloudflare vidarebefordrar de rubriker som ställts in i WordPress. Om du "
+"även ställer in rubriker i Cloudflares kontrollpanel kan det uppstå "
+"dubbletter – använd alternativet ”Lösa dubbla rubriker” under Inställningar "
+"för att åtgärda detta."
 
 #: pro/loader.php:1021
 msgid "What does the Score Trend chart show?"
-msgstr "Was zeigt das Diagramm zur Punktentwicklung?"
+msgstr "Vad visar diagrammet över poängutvecklingen?"
 
 #: pro/loader.php:1021
 msgid ""
@@ -2544,38 +2487,35 @@ msgid ""
 "Filter by week, month, or year. Useful to spot when a hosting change, plugin "
 "update, or configuration error affected your security."
 msgstr ""
-"Eine visuelle Zeitleiste, die die Entwicklung Ihrer Sicherheitsbewertung im "
-"Laufe der Zeit darstellt. Jeder Punkt steht für einen Scan. Filtern Sie nach "
-"Woche, Monat oder Jahr. Nützlich, um festzustellen, wann ein Wechsel des "
-"Hosting-Anbieters, ein Plugin-Update oder ein Konfigurationsfehler Ihre "
-"Sicherheit beeinträchtigt hat."
+"En visuell tidslinje som visar din säkerhetspoäng över tid. Varje punkt "
+"motsvarar en genomsökning. Filtrera efter vecka, månad eller år. Användbart "
+"för att se när ett byte av webbhotell, en uppdatering av ett plugin eller "
+"ett konfigurationsfel har påverkat din säkerhet."
 
 #: pro/loader.php:1022
 msgid "Payment methods?"
-msgstr "Zahlungsmethoden?"
+msgstr "Betalningssätt?"
 
 #: pro/loader.php:1022
 msgid ""
 "Lemon Squeezy: credit/debit cards, PayPal, Apple Pay. We never see payment "
 "data. EU VAT handled automatically. Invoices in your Lemon Squeezy account."
 msgstr ""
-"Lemon Squeezy: Kredit-/Debitkarten, PayPal, Apple Pay. Wir haben keinen "
-"Einblick in Zahlungsdaten. Die EU-Mehrwertsteuer wird automatisch "
-"abgewickelt. Rechnungen finden Sie in Ihrem Lemon Squeezy-Konto."
+"Lemon Squeezy: kredit- och betalkort, PayPal, Apple Pay. Vi får aldrig "
+"tillgång till betalningsuppgifter. EU-moms hanteras automatiskt. Fakturor "
+"finns i ditt Lemon Squeezy-konto."
 
 #: pro/loader.php:1023
 msgid "Refund policy?"
-msgstr "Rückgaberecht?"
+msgstr "Återbetalningspolicy?"
 
 #: pro/loader.php:1023
 msgid "14-day full refund, no questions asked. Contact support."
-msgstr ""
-"14 Tage lang volle Rückerstattung, ohne Angabe von Gründen. Wenden Sie sich "
-"an den Support."
+msgstr "14 dagars full återbetalning, utan krångel. Kontakta supporten."
 
 #: pro/loader.php:1024
 msgid "What happens if I delete the plugin?"
-msgstr "Was passiert, wenn ich das Plugin lösche?"
+msgstr "Vad händer om jag tar bort tillägget?"
 
 #: pro/loader.php:1024
 msgid ""
@@ -2583,17 +2523,15 @@ msgid ""
 "activation slot. You can reuse the same key on another site. All plugin "
 "settings and scan history are removed from the database."
 msgstr ""
-"Ihre Lizenz wird auf Lemon Squeezy automatisch deaktiviert, wodurch der "
-"Aktivierungsplatz wieder frei wird. Sie können denselben Schlüssel auf einer "
-"anderen Website wiederverwenden. Alle Plugin-Einstellungen und der Scan-"
-"Verlauf werden aus der Datenbank gelöscht."
+"Din licens inaktiveras automatiskt på Lemon Squeezy, vilket frigör "
+"aktiveringsplatsen. Du kan återanvända samma nyckel på en annan webbplats. "
+"Alla plugin-inställningar och skanningshistoriken raderas från databasen."
 
 #: pro/loader.php:1038
 #, php-format
 msgid "Need more help? %1$sSupport forum%2$s or %3$sOpenHeaders.org%4$s"
 msgstr ""
-"Benötigen Sie weitere Hilfe? %1$sSupport-Forum%2$s oder "
-"%3$sOpenHeaders.org%4$s"
+"Behöver du mer hjälp? %1$sSupportforum%2$s eller %3$sOpenHeaders.org%4$s"
 
 #. Plugin URI of the plugin/theme
 msgid "https://openheaders.org"
@@ -2611,16 +2549,15 @@ msgid ""
 "Security Advanced & HSTS WP will help you mitigate CSRF on your WordPress "
 "site."
 msgstr ""
-"Headers Security Advanced & HSTS WP – Einfach, schlank und schnell. Das "
-"Plugin nutzt fortschrittliche Sicherheitsregeln, die ein hohes Maß an Schutz "
-"bieten, und es ist wichtig, dass Ihre Website dieses Plugin verwendet. "
-"Dieser Schritt ist wichtig, um Ihre Website und/oder Domain in eine "
-"genehmigte HSTS-Liste aufzunehmen. Diese Liste wird offiziell von Google "
-"zusammengestellt und von Chrome, Firefox, Opera, Safari, IE11 und Edge "
-"verwendet. Sie können Ihre Website an das offizielle HSTS-Preload-"
-"Verzeichnis weiterleiten. Cross-Site-Request-Forgery (CSRF) ist eine häufige "
-"Angriffsmethode; die Installation von Headers Security Advanced & HSTS WP "
-"hilft Ihnen dabei, CSRF-Angriffe auf Ihrer WordPress-Website abzuwehren."
+"Headers Security Advanced & HSTS WP – Enkelt, smidigt och snabbt. Pluginet "
+"använder avancerade säkerhetsregler som ger ett mycket högt skydd, och det "
+"är viktigt att din webbplats använder det. Detta steg är viktigt för att "
+"lägga till din webbplats och/eller domän i en godkänd HSTS-lista. Google "
+"sammanställer officiellt denna lista och den används av Chrome, Firefox, "
+"Opera, Safari, IE11 och Edge. Du kan vidarebefordra din webbplats till den "
+"officiella HSTS-förladdningskatalogen. Cross Site Request Forgery (CSRF) är "
+"en vanlig attack, men installationen av Headers Security Advanced & HSTS WP "
+"hjälper dig att minska risken för CSRF på din WordPress-webbplats."
 
 #. Author of the plugin/theme
 msgid "🐙 Andrea Ferro"
@@ -2629,222 +2566,3 @@ msgstr "🐙 Andrea Ferro"
 #. Author URI of the plugin/theme
 msgid "https://www.linkedin.com/in/andrea-ferro-55046186/"
 msgstr "https://www.linkedin.com/in/andrea-ferro-55046186/"
-
-#, fuzzy, php-format
-#~ msgid ""
-#~ "Please consider buying me a coffee to support my work on this %1$sHeaders "
-#~ "Security Advanced & HSTS WP%2$s plugin."
-#~ msgstr ""
-#~ "Bitte erwägen Sie, mir einen Kaffee zu kaufen, um meine Arbeit an diesem "
-#~ "%1$sHeaders Security Advanced & HSTS WP%2$s Plugin zu unterstützen."
-
-#, fuzzy
-#~ msgid "https://www.tentacleplugins.com/"
-#~ msgstr "https://www.tentacleplugins.com/"
-
-#, fuzzy, php-format
-#~ msgid ""
-#~ "The %1$sHeaders Security Advanced & HSTS WP%2$s security plugin for "
-#~ "WordPress is an essential and completely free plugin to protect your "
-#~ "WordPress site. "
-#~ msgstr ""
-#~ "Das %1$sHeaders Security Advanced & HSTS WP%2$s Sicherheits-Plugin für "
-#~ "WordPress ist ein unverzichtbares und völlig kostenloses Plugin zum "
-#~ "Schutz Ihrer WordPress-Site. "
-
-#, fuzzy, php-format
-#~ msgid ""
-#~ "%1$sHeaders Security Advanced & HSTS WP%2$s adds security headers quickly "
-#~ "to your site to protect it from threats such as phishing attacks, data "
-#~ "theft and more. "
-#~ msgstr ""
-#~ "%1$s Headers Security Advanced & HSTS WP%2$s fügt Ihrer Website schnell "
-#~ "Sicherheitsheader hinzu, um sie vor Bedrohungen wie Phishing-Angriffen, "
-#~ "Datendiebstahl und mehr zu schützen. "
-
-#, fuzzy, php-format
-#~ msgid ""
-#~ "%1$sHeaders Security Advanced & HSTS WP%2$s is easy to use and allows you "
-#~ "to customize the HSTS Preload header to suit your needs. "
-#~ msgstr ""
-#~ "%1$s Headers Security Advanced & HSTS WP%2$s ist einfach zu bedienen und "
-#~ "ermöglicht es Ihnen, den HSTS Preload-Header an Ihre Bedürfnisse "
-#~ "anzupassen. "
-
-#, fuzzy
-#~ msgid ""
-#~ "The plugin is compatible with all major browsers and operating systems "
-#~ "and can be installed on any WordPress site."
-#~ msgstr ""
-#~ "Das Plugin ist mit allen gängigen Browsern und Betriebssystemen "
-#~ "kompatibel und kann auf jeder WordPress-Site installiert werden."
-
-#, fuzzy
-#~ msgid "buy me paypal"
-#~ msgstr "Kaufe mir PayPal"
-
-#, fuzzy
-#~ msgid "HSTS Preload List Submission"
-#~ msgstr "HSTS Preload List Submission"
-
-#~ msgid "Beta"
-#~ msgstr "Beta"
-
-#, fuzzy
-#~ msgid ""
-#~ "Max-Age is a parameter used in the HTTP Strict-Transport-Security (HSTS) "
-#~ "header to specify the period of time (in seconds) for which the browser "
-#~ "should store the HSTS information. "
-#~ msgstr ""
-#~ "Max-Age ist ein Parameter, der im HTTP Strict-Transport-Security (HSTS)-"
-#~ "Header verwendet wird, um den Zeitraum (in Sekunden) anzugeben, für den "
-#~ "der Browser die HSTS-Informationen speichern soll. "
-
-#, fuzzy
-#~ msgid ""
-#~ "During this time period, the browser will always use HTTPS to communicate "
-#~ "with the website, even if the visitor has entered \"http\" or an HTTP "
-#~ "link in the address bar. "
-#~ msgstr ""
-#~ "Während dieses Zeitraums verwendet der Browser immer HTTPS, um mit der "
-#~ "Website zu kommunizieren, auch wenn der Besucher \"http\" oder einen HTTP-"
-#~ "Link in die Adresszeile eingegeben hat. "
-
-#, fuzzy
-#~ msgid ""
-#~ "This helps protect the website and its visitors from man-in-the-middle "
-#~ "(MITM) attacks and other security threats."
-#~ msgstr ""
-#~ "Dies trägt dazu bei, die Website und ihre Besucher vor Man-in-the-Middle "
-#~ "(MITM)-Angriffen und anderen Sicherheitsbedrohungen zu schützen."
-
-#, fuzzy
-#~ msgid ""
-#~ "Regarding setting the \"max-age\" value for the HSTS header, it is "
-#~ "advisable to set it to a high value, such as a full year (31536000 "
-#~ "seconds). "
-#~ msgstr ""
-#~ "Um den Wert \"max-age\" für den HSTS-Header festzulegen, ist es ratsam, "
-#~ "ihn auf einen hohen Wert festzulegen, z. B. ein ganzes Jahr (31536000 "
-#~ "Sekunden). "
-
-#, fuzzy
-#~ msgid ""
-#~ "This ensures that browsers continue to store security information for a "
-#~ "long period of time, which helps protect users from man-in-the-middle "
-#~ "attacks. "
-#~ msgstr ""
-#~ "Dadurch wird sichergestellt, dass Browser Sicherheitsinformationen über "
-#~ "einen langen Zeitraum speichern, wodurch Benutzer vor Man-in-the-Middle-"
-#~ "Angriffen geschützt werden. "
-
-#, fuzzy
-#~ msgid ""
-#~ "However, it is important to keep in mind that setting the value too high "
-#~ "could cause problems if you need to change your site's SSL configuration "
-#~ "in the future. "
-#~ msgstr ""
-#~ "Beachten Sie jedoch, dass ein zu hoher Wert Probleme verursachen kann, "
-#~ "wenn Sie die SSL-Konfiguration Ihrer Website in Zukunft ändern müssen. "
-
-#, fuzzy
-#~ msgid ""
-#~ "Therefore, it is important to carefully consider your usage and security "
-#~ "needs before setting the value."
-#~ msgstr ""
-#~ "Daher ist es wichtig, Ihre Nutzungs- und Sicherheitsanforderungen "
-#~ "sorgfältig zu berücksichtigen, bevor Sie den Wert festlegen."
-
-#, fuzzy
-#~ msgid ""
-#~ "IncludeSubDomains is an HTTP Strict Transport Security (HSTS) directive "
-#~ "that specifies whether the header should also be applied to subdomains of "
-#~ "the domain. "
-#~ msgstr ""
-#~ "IncludeSubDomains ist eine HTTP Strict Transport Security (HSTS)-"
-#~ "Direktive, die angibt, ob der Header auch auf Unterdomänen der Domäne "
-#~ "angewendet werden soll. "
-
-#, fuzzy
-#~ msgid ""
-#~ "As a professional tip, we recommend enabling the \"includeSubDomains\" "
-#~ "option in the HSTS header to ensure that all subdomains on the website "
-#~ "use HTTPS. "
-#~ msgstr ""
-#~ "Als professionellen Tipp empfehlen wir, die Option \"includeSubDomains\" "
-#~ "im HSTS-Header zu aktivieren, um sicherzustellen, dass alle Subdomains "
-#~ "auf der Website HTTPS verwenden. "
-
-#, fuzzy
-#~ msgid ""
-#~ "This increases connection security for users and reduces the possibility "
-#~ "of man-in-the-middle attacks. "
-#~ msgstr ""
-#~ "Dies erhöht die Verbindungssicherheit für Benutzer und reduziert die "
-#~ "Möglichkeit von Man-in-the-Middle-Angriffen. "
-
-#, fuzzy
-#~ msgid ""
-#~ "However, you should be aware that this option may cause problems for some "
-#~ "external subdomains that do not support HTTPS. "
-#~ msgstr ""
-#~ "Beachten Sie jedoch, dass diese Option bei einigen externen Subdomains, "
-#~ "die HTTPS nicht unterstützen, Probleme verursachen kann. "
-
-#, fuzzy
-#~ msgid ""
-#~ "In this case, you may consider disabling the option for such specific "
-#~ "subdomains."
-#~ msgstr ""
-#~ "In diesem Fall können Sie erwägen, die Option für solche spezifischen "
-#~ "Subdomains zu deaktivieren."
-
-#, fuzzy
-#~ msgid ""
-#~ "The \"preload\" parameter is used to indicate to the browser that the "
-#~ "website should only be loaded via HTTPS. "
-#~ msgstr ""
-#~ "Der Parameter \"preload\" wird verwendet, um dem Browser anzuzeigen, dass "
-#~ "die Website nur über HTTPS geladen werden soll. "
-
-#, fuzzy
-#~ msgid ""
-#~ "This means that even if a user types \"http://\" in front of the website "
-#~ "URL, he or she will automatically be redirected to \"https://\" to ensure "
-#~ "the security of the connection. "
-#~ msgstr ""
-#~ "Dies bedeutet, dass selbst wenn ein Benutzer \"http://\" vor die Website-"
-#~ "URL eingibt, er automatisch zu \"https://\" weitergeleitet wird, um die "
-#~ "Sicherheit der Verbindung zu gewährleisten. "
-
-#, fuzzy
-#~ msgid ""
-#~ "This makes the site load faster for users and improves the security of "
-#~ "the connection."
-#~ msgstr ""
-#~ "Dadurch wird die Website für Benutzer schneller geladen und die "
-#~ "Sicherheit der Verbindung verbessert."
-
-#, fuzzy
-#~ msgid ""
-#~ "Professional advice would be to turn on the \"preload\" parameter to "
-#~ "ensure greater security and speed of site loading for users. "
-#~ msgstr ""
-#~ "Professioneller Rat wäre, den Parameter \"preload\" zu aktivieren, um "
-#~ "eine größere Sicherheit und Geschwindigkeit beim Laden der Website für "
-#~ "Benutzer zu gewährleisten. "
-
-#, fuzzy
-#~ msgid ""
-#~ "Including the subdomain in the HSTS configuration is also a good practice "
-#~ "to ensure that all subsections of your site are only loaded via HTTPS. "
-#~ msgstr ""
-#~ "Das Einschließen der Subdomain in die HSTS-Konfiguration ist ebenfalls "
-#~ "eine bewährte Methode, um sicherzustellen, dass alle Unterabschnitte "
-#~ "Ihrer Website nur über HTTPS geladen werden. "
-
-#, fuzzy
-#~ msgid "Don't try to be smart with us, only real ninjas can enter here!"
-#~ msgstr ""
-#~ "Versuchen Sie nicht, schlau mit uns zu sein, nur echte Ninjas können hier "
-#~ "eintreten!"
